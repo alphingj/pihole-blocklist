@@ -1,0 +1,461 @@
+## Source manifest for pihole-blocklist
+##
+## Every upstream blocklist that feeds the generated lists. Edit this file to
+## add, remove, re-categorise or disable a source -- no code changes needed.
+##
+## Fields
+##   id          short slug, used for filenames and stats
+##   url         raw blocklist URL (must return plain text, not HTML)
+##   categories  one or more of: ads tracking malware phishing scam crypto
+##               spam spyware adult gambling
+##   enabled     false keeps the source documented but out of every list
+##   multipurpose  true = the list spans several of its declared categories
+##   license     optional override; otherwise auto-detected from the list header
+##   caution     required when enabled = false, explains why
+##   note        optional free text shown in SOURCES.md
+##
+## Verified 2026-10-03 against each list's own header, not filenames.
+
+[groups]
+core      = ["ads", "malware", "phishing"]
+junk      = ["tracking", "scam", "crypto", "spam"]
+sensitive = ["spyware", "gambling", "adult"]
+
+[lists]
+## Emitted as release assets. "everything" is the plain union of all groups.
+allinone   = { exclude_categories = ["adult", "gambling"], scrub_adult = true }
+adult      = { include_categories = ["adult", "gambling"] }
+core       = { groups = ["core"], scrub_adult = true }
+junk       = { groups = ["junk"], scrub_adult = true }
+sensitive  = { groups = ["sensitive"] }
+everything = { all_groups = true }
+
+## Applied to every list with scrub_adult = true. Net 1 (exact) is dropping any
+## domain that also appears in adult.txt; these keywords are net 2 (heuristic).
+[adult_scrub]
+keywords = [
+  "porn", "porno", "xxx", "nsfw", "hentai", "escort", "camgirl", "cam-soda",
+  "camsoda", "sextube", "onlyfans", "stripchat", "bongacams", "chaturbate",
+  "camwhores", "tube8", "redtube", "youporn", "motherless", "spankbang",
+  "keezmovies", "bukkake", "shemale", "creampie", "voyeur", "erotic", "fetish",
+]
+
+## Rejected outright by the parser, from every list, before anything else.
+[parser]
+blocked_names = [
+  "localhost", "local", "localhost.localdomain", "ip6-localhost", "ip6-loopback",
+  "ip6-allnodes", "ip6-allrouters", "ip6-allhosts", "ip6-localnet",
+  "ip6-mcastprefix", "broadcasthost", "home", "lan", "intranet", "corp",
+]
+blocked_suffixes = [".local", ".localhost", ".arpa", ".test", ".invalid", ".example", ".internal", ".home"]
+max_labels = 8
+max_hyphen_run = 2
+
+[[source]]
+id = "adaway"
+url = "https://adaway.org/hosts.txt"
+categories = ["ads"]
+multipurpose = true
+note = "AdAway default list; ad servers plus some malvertising."
+
+[[source]]
+id = "mahakala"
+url = "https://adblock.mahakala.is"
+categories = ["ads"]
+note = "Regularly updated ad and tracking domains."
+
+[[source]]
+id = "adguard-filter-50"
+url = "https://adguardteam.github.io/HostlistsRegistry/assets/filter_50.txt"
+categories = ["ads"]
+note = "AdGuard DNS filter, 50 entries blocked by default."
+
+[[source]]
+id = "adguard-filter-7"
+url = "https://adguardteam.github.io/HostlistsRegistry/assets/filter_7.txt"
+categories = ["ads"]
+note = "AdGuard DNS default filter."
+
+[[source]]
+id = "oisd-big"
+url = "https://big.oisd.nl/"
+categories = ["ads", "tracking", "malware", "phishing", "scam", "crypto", "spyware"]
+multipurpose = true
+license = "not stated by oisd.nl"
+note = "oisd big, 244k entries, updated hourly. Verified to contain none of pornhub/xvideos/xhamster/onlyfans/stripchat; adult content lives in the separate nsfw list. Rejects Range requests, must be fetched whole."
+
+[[source]]
+id = "mandiant-apt1"
+url = "https://bitbucket.org/ethanr/dns-blacklists/raw/8575c9f96e5b4a1308f2f12394abd86d0927a4a0/bad_lists/Mandiant_APT1_Report_Appendix_D.txt"
+categories = ["malware"]
+note = "Pinned commit. Mandiant APT1 report DNS indicators."
+
+[[source]]
+id = "hagezi-gambling"
+url = "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/gambling.txt"
+categories = ["gambling"]
+note = "Gambling and betting domains. Ships in adult.txt (18+ list)."
+
+[[source]]
+id = "hagezi-pro-plus"
+url = "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/pro.plus.txt"
+categories = ["ads", "tracking", "malware", "phishing", "scam", "crypto", "spyware"]
+multipurpose = true
+note = "Self-described: ads, trackers, metrics, telemetry, phishing, malware, scams, fakes, cryptojacking. No adult content."
+
+[[source]]
+id = "hagezi-spam-tlds"
+url = "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/spam-tlds-adblock.txt"
+categories = ["spam"]
+note = "The most abused TLDs (Spamhaus/Cloudflare/Netcraft data). TLD-level, aggressive by design."
+
+[[source]]
+id = "hagezi-tif"
+url = "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/tif.txt"
+categories = ["malware", "phishing", "scam", "crypto", "spam"]
+multipurpose = true
+note = "Threat Intelligence Feeds: malware, cryptojacking, scams, spam, phishing, C2."
+
+[[source]]
+id = "hagezi-hoster"
+url = "https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/adblock/hoster.txt"
+categories = ["malware"]
+enabled = false
+caution = "Blocks the root domains of hosting providers, so legitimate sites on those hosts are blocked too. The author calls it overkill for most setups. Enable only in high-security environments."
+
+[[source]]
+id = "quidsup-notrack"
+url = "https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-blocklist.txt"
+categories = ["tracking"]
+
+[[source]]
+id = "quidsup-notrack-malware"
+url = "https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-malware.txt"
+categories = ["malware"]
+
+[[source]]
+id = "frogeye-firstparty-trackers"
+url = "https://hostfiles.frogeye.fr/firstparty-trackers-hosts.txt"
+categories = ["tracking"]
+note = "First-party trackers, invisible without this list."
+
+[[source]]
+id = "frogeye-multiparty-trackers"
+url = "https://hostfiles.frogeye.fr/multiparty-trackers-hosts.txt"
+categories = ["tracking"]
+
+[[source]]
+id = "hostsfile-mine-nu"
+url = "https://hostsfile.mine.nu/hosts0.txt"
+categories = ["ads"]
+note = "Global advert servers, personal edition. Last release 2023-01-26."
+
+[[source]]
+id = "hostsfile-org"
+url = "https://hostsfile.org/Downloads/hosts.txt"
+categories = ["ads"]
+
+[[source]]
+id = "cyberhost-malware"
+url = "https://lists.cyberhost.uk/malware.txt"
+categories = ["malware"]
+
+[[source]]
+id = "malwarefilter-phishing"
+url = "https://malware-filter.gitlab.io/malware-filter/phishing-filter-hosts.txt"
+categories = ["phishing"]
+
+[[source]]
+id = "digitalside"
+url = "https://osint.digitalside.it/Threat-Intel/lists/latestdomains.txt"
+categories = ["malware"]
+enabled = false
+caution = "Dead. osint.digitalside.it no longer resolves; the project was retired."
+
+[[source]]
+id = "barbblock"
+url = "https://paulgb.github.io/BarbBlock/blacklists/hosts-file.txt"
+categories = ["malware"]
+enabled = false
+caution = "Stale: last updated 2019-05-26. Kept for reference, not published."
+
+[[source]]
+id = "yoyo-adservers"
+url = "https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext"
+categories = ["ads"]
+
+[[source]]
+id = "phishing-army"
+url = "https://phishing.army/download/phishing_army_blocklist_extended.txt"
+categories = ["phishing"]
+note = "PhishTank-derived, checked hourly upstream."
+
+[[source]]
+id = "stalkerware-indicators"
+url = "https://raw.githubusercontent.com/AssoEchap/stalkerware-indicators/master/generated/hosts"
+categories = ["spyware"]
+
+[[source]]
+id = "dandelion-antimalware"
+url = "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Alternate%20versions%20Anti-Malware%20List/AntiMalwareHosts.txt"
+categories = ["malware"]
+
+[[source]]
+id = "fademind-unchecky-ads"
+url = "https://raw.githubusercontent.com/FadeMind/hosts.extras/master/UncheckyAds/hosts"
+categories = ["ads"]
+
+[[source]]
+id = "fademind-2o7net"
+url = "https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.2o7Net/hosts"
+categories = ["tracking"]
+note = "Omniture/Adobe Analytics and friends."
+
+[[source]]
+id = "fademind-risk"
+url = "https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.Risk/hosts"
+categories = ["scam"]
+
+[[source]]
+id = "fademind-spam"
+url = "https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.Spam/hosts"
+categories = ["spam"]
+
+[[source]]
+id = "tr-phishinglist"
+url = "https://raw.githubusercontent.com/HorusTeknoloji/TR-PhishingList/master/url-lists.txt"
+categories = ["phishing"]
+note = "URL/regex rules mixed in with domains; the parser keeps the host part and drops the rest."
+
+[[source]]
+id = "kees-top-ads-trackers"
+url = "https://raw.githubusercontent.com/Kees1958/W3C_annual_most_used_survey_blocklist/6b8c2411f22dda68b0b41757aeda10e50717a802/TOP_EU_US_Ads_Trackers_HOST"
+categories = ["ads", "tracking"]
+multipurpose = true
+note = "Pinned commit. Derived from the W3C most-used survey."
+
+[[source]]
+id = "perflyst-firetv"
+url = "https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/AmazonFireTV.txt"
+categories = ["tracking"]
+
+[[source]]
+id = "perflyst-smarttv"
+url = "https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV.txt"
+categories = ["tracking"]
+
+[[source]]
+id = "perflyst-android"
+url = "https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/android-tracking.txt"
+categories = ["tracking"]
+
+[[source]]
+id = "kadhosts"
+url = "https://raw.githubusercontent.com/PolishFiltersTeam/KADhosts/master/KADhosts.txt"
+categories = ["ads", "malware"]
+multipurpose = true
+
+[[source]]
+id = "rpilist-easylist"
+url = "https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/easylist"
+categories = ["ads"]
+
+[[source]]
+id = "rpilist-malware"
+url = "https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/malware"
+categories = ["malware"]
+
+[[source]]
+id = "snafu"
+url = "https://raw.githubusercontent.com/RooneyMcNibNug/pihole-stuff/master/SNAFU.txt"
+categories = ["ads", "tracking"]
+multipurpose = true
+note = "Self-described general ad and tracking list, actively maintained."
+
+[[source]]
+id = "spam404"
+url = "https://raw.githubusercontent.com/Spam404/lists/master/main-blacklist.txt"
+categories = ["scam"]
+note = "Warez, piracy and cheating sites."
+
+[[source]]
+id = "stevenblack-fakenews"
+url = "https://raw.githubusercontent.com/StevenBlack/hosts/master/extensions/fakenews/hosts"
+categories = ["scam"]
+note = "Fake news and satire sites."
+
+[[source]]
+id = "stevenblack-hosts"
+url = "https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts"
+categories = ["ads", "malware"]
+multipurpose = true
+note = "The base hosts file most other lists are derived from."
+
+[[source]]
+id = "yhosts"
+url = "https://raw.githubusercontent.com/VeleSila/yhosts/master/hosts"
+categories = ["ads"]
+
+[[source]]
+id = "anudeep-adservers"
+url = "https://raw.githubusercontent.com/anudeepND/blacklist/master/adservers.txt"
+categories = ["ads"]
+
+[[source]]
+id = "anudeep-facebook"
+url = "https://raw.githubusercontent.com/anudeepND/blacklist/master/facebook.txt"
+categories = ["ads"]
+
+[[source]]
+id = "hostsvn"
+url = "https://raw.githubusercontent.com/bigdargon/hostsVN/master/hosts"
+categories = ["ads", "malware"]
+multipurpose = true
+
+[[source]]
+id = "blocklistproject-crypto"
+url = "https://raw.githubusercontent.com/blocklistproject/Lists/master/crypto.txt"
+categories = ["crypto"]
+note = "Cryptojacking and crypto exchange domains. Can hit legitimate exchange sites."
+
+[[source]]
+id = "chadmayfield-porn"
+url = "https://raw.githubusercontent.com/chadmayfield/my-pihole-blocklists/master/lists/pi_blocklist_porn_top1m.list"
+categories = ["adult"]
+note = "Named 'top 1m' upstream but currently ships only ~12k domains. The bulk of adult.txt comes from firebog-prigent-adult and oisd-nsfw."
+
+[[source]]
+id = "windows-spy-blocker"
+url = "https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt"
+categories = ["spyware"]
+
+[[source]]
+id = "scam-blocklist"
+url = "https://raw.githubusercontent.com/jarelllama/Scam-Blocklist/main/lists/wildcard_domains/scams.txt"
+categories = ["scam"]
+
+[[source]]
+id = "matomo-referrer-spam"
+url = "https://raw.githubusercontent.com/matomo-org/referrer-spam-blacklist/master/spammers.txt"
+categories = ["spam"]
+
+[[source]]
+id = "phishtank-tg12"
+url = "https://raw.githubusercontent.com/tg12/pihole-phishtank-list/master/list/phish_domains.txt"
+categories = ["phishing"]
+
+[[source]]
+id = "disconnect-ad"
+url = "https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt"
+categories = ["ads"]
+
+[[source]]
+id = "disconnect-malvertising"
+url = "https://s3.amazonaws.com/lists.disconnect.me/simple_malvertising.txt"
+categories = ["ads"]
+
+[[source]]
+id = "someonewhocares"
+url = "https://someonewhocares.org/hosts/zero/hosts"
+categories = ["ads", "malware"]
+multipurpose = true
+
+[[source]]
+id = "threatfox"
+url = "https://threatfox.abuse.ch/downloads/hostfile/"
+categories = ["malware"]
+note = "abuse.ch ThreatFox IOCs, C2 infrastructure."
+
+[[source]]
+id = "urlhaus"
+url = "https://urlhaus.abuse.ch/downloads/hostfile/"
+categories = ["malware"]
+note = "abuse.ch URLhaus malware payload hosts."
+
+[[source]]
+id = "firebog-adguard-dns"
+url = "https://v.firebog.net/hosts/AdguardDNS.txt"
+categories = ["ads"]
+
+[[source]]
+id = "firebog-admiral"
+url = "https://v.firebog.net/hosts/Admiral.txt"
+categories = ["ads"]
+
+[[source]]
+id = "firebog-easylist"
+url = "https://v.firebog.net/hosts/Easylist.txt"
+categories = ["ads"]
+
+[[source]]
+id = "firebog-easyprivacy"
+url = "https://v.firebog.net/hosts/Easyprivacy.txt"
+categories = ["tracking"]
+
+[[source]]
+id = "firebog-kowabit"
+url = "https://v.firebog.net/hosts/Kowabit.txt"
+categories = ["malware"]
+
+[[source]]
+id = "firebog-prigent-ads"
+url = "https://v.firebog.net/hosts/Prigent-Ads.txt"
+categories = ["ads"]
+
+[[source]]
+id = "firebog-prigent-adult"
+url = "https://v.firebog.net/hosts/Prigent-Adult.txt"
+categories = ["adult"]
+note = "Largest single contributor to adult.txt at 4.59M domains, 124 MB upstream. License not stated in the file."
+
+[[source]]
+id = "firebog-prigent-crypto"
+url = "https://v.firebog.net/hosts/Prigent-Crypto.txt"
+categories = ["crypto"]
+
+[[source]]
+id = "firebog-prigent-malware"
+url = "https://v.firebog.net/hosts/Prigent-Malware.txt"
+categories = ["malware"]
+
+[[source]]
+id = "firebog-rpilist-malware"
+url = "https://v.firebog.net/hosts/RPiList-Malware.txt"
+categories = ["malware"]
+
+[[source]]
+id = "firebog-rpilist-phishing"
+url = "https://v.firebog.net/hosts/RPiList-Phishing.txt"
+categories = ["phishing"]
+
+[[source]]
+id = "firebog-neohosts"
+url = "https://v.firebog.net/hosts/neohostsbasic.txt"
+categories = ["ads", "malware"]
+multipurpose = true
+
+[[source]]
+id = "firebog-w3kbl"
+url = "https://v.firebog.net/hosts/static/w3kbl.txt"
+categories = ["ads", "malware"]
+multipurpose = true
+license = "CC BY 4.0"
+note = "WaLLy3K personal blocklist, manually verified."
+
+[[source]]
+id = "mvps-hosts"
+url = "https://winhelp2002.mvps.org/hosts.txt"
+categories = ["ads", "malware"]
+multipurpose = true
+
+[[source]]
+id = "joewein"
+url = "https://www.joewein.net/dl/bl/dom-bl-base.txt"
+categories = ["ads"]
+
+[[source]]
+id = "oisd-nsfw"
+url = "https://nsfw.oisd.nl/"
+categories = ["adult"]
+license = "not stated by oisd.nl"
+note = "oisd nsfw, 471k entries, updated hourly. Porn/adult/shock/gore. adult.txt only."

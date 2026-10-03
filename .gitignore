@@ -1,0 +1,10 @@
+# Build output: upstream bytes, normalised per-source files, generated lists.
+# All of it is reproducible with scripts/build.py and none of it belongs in git
+# (allinone.txt alone is 139 MiB, over GitHub's 100 MB per-file limit).
+dist/
+
+# Local editor / OS noise
+__pycache__/
+*.pyc
+.DS_Store
+*.swp

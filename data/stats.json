@@ -1,0 +1,1768 @@
+{
+ "adult_reference_entries": 5496225,
+ "generated": "2026-10-03T05:37:24Z",
+ "lists": {
+  "adult": {
+   "bytes": 183841413,
+   "entries": 5496225,
+   "scrubbed": false,
+   "sha256": "0d103caf2ad917d897c91e2b1c5ebce3b1559f79a2e2a19893ae9b763f93a2a7",
+   "sources": [
+    "hagezi-gambling",
+    "chadmayfield-porn",
+    "firebog-prigent-adult",
+    "oisd-nsfw"
+   ]
+  },
+  "allinone": {
+   "bytes": 145725589,
+   "entries": 5251316,
+   "scrubbed": true,
+   "sha256": "b82effb570f64e35dcf2912842597fc3636e3d9884db1f9d4f8350a2c5b72881",
+   "sources": [
+    "adaway",
+    "mahakala",
+    "adguard-filter-50",
+    "adguard-filter-7",
+    "oisd-big",
+    "mandiant-apt1",
+    "hagezi-pro-plus",
+    "hagezi-spam-tlds",
+    "hagezi-tif",
+    "quidsup-notrack",
+    "quidsup-notrack-malware",
+    "frogeye-firstparty-trackers",
+    "frogeye-multiparty-trackers",
+    "hostsfile-mine-nu",
+    "hostsfile-org",
+    "cyberhost-malware",
+    "malwarefilter-phishing",
+    "yoyo-adservers",
+    "phishing-army",
+    "stalkerware-indicators",
+    "dandelion-antimalware",
+    "fademind-unchecky-ads",
+    "fademind-2o7net",
+    "fademind-risk",
+    "fademind-spam",
+    "tr-phishinglist",
+    "kees-top-ads-trackers",
+    "perflyst-firetv",
+    "perflyst-smarttv",
+    "perflyst-android",
+    "kadhosts",
+    "rpilist-easylist",
+    "rpilist-malware",
+    "snafu",
+    "spam404",
+    "stevenblack-fakenews",
+    "stevenblack-hosts",
+    "yhosts",
+    "anudeep-adservers",
+    "anudeep-facebook",
+    "hostsvn",
+    "blocklistproject-crypto",
+    "windows-spy-blocker",
+    "scam-blocklist",
+    "matomo-referrer-spam",
+    "phishtank-tg12",
+    "disconnect-ad",
+    "disconnect-malvertising",
+    "someonewhocares",
+    "threatfox",
+    "urlhaus",
+    "firebog-adguard-dns",
+    "firebog-admiral",
+    "firebog-easylist",
+    "firebog-easyprivacy",
+    "firebog-kowabit",
+    "firebog-prigent-ads",
+    "firebog-prigent-crypto",
+    "firebog-prigent-malware",
+    "firebog-rpilist-malware",
+    "firebog-rpilist-phishing",
+    "firebog-neohosts",
+    "firebog-w3kbl",
+    "mvps-hosts",
+    "joewein"
+   ]
+  },
+  "allinone.variants": {
+   "adblock": {
+    "bytes": 119469009,
+    "sha256": "584e392ed437f266c47278a19ffdfd1e87e082725230c7377fd557363616a637"
+   },
+   "domains": {
+    "bytes": 103715061,
+    "sha256": "b828f993234ef62e990cafb9e685fa33a1d21b652e1f732deb06ec7693a7dd03"
+   },
+   "gz": {
+    "bytes": 34469873,
+    "sha256": "161f53051fb0dcea945eb8d130730ff26ccfd4f8dc2bdc4722722e35775a7922"
+   }
+  },
+  "core": {
+   "bytes": 132023101,
+   "entries": 4776476,
+   "scrubbed": true,
+   "sha256": "3f591a15f453d7d8d6253665fb94d1e35f00d4c97ab2b8325ed4f871182ba540",
+   "sources": [
+    "adaway",
+    "mahakala",
+    "adguard-filter-50",
+    "adguard-filter-7",
+    "oisd-big",
+    "mandiant-apt1",
+    "hagezi-pro-plus",
+    "hagezi-tif",
+    "quidsup-notrack-malware",
+    "hostsfile-mine-nu",
+    "hostsfile-org",
+    "cyberhost-malware",
+    "malwarefilter-phishing",
+    "yoyo-adservers",
+    "phishing-army",
+    "dandelion-antimalware",
+    "fademind-unchecky-ads",
+    "tr-phishinglist",
+    "kees-top-ads-trackers",
+    "kadhosts",
+    "rpilist-easylist",
+    "rpilist-malware",
+    "snafu",
+    "stevenblack-hosts",
+    "yhosts",
+    "anudeep-adservers",
+    "anudeep-facebook",
+    "hostsvn",
+    "phishtank-tg12",
+    "disconnect-ad",
+    "disconnect-malvertising",
+    "someonewhocares",
+    "threatfox",
+    "urlhaus",
+    "firebog-adguard-dns",
+    "firebog-admiral",
+    "firebog-easylist",
+    "firebog-kowabit",
+    "firebog-prigent-ads",
+    "firebog-prigent-malware",
+    "firebog-rpilist-malware",
+    "firebog-rpilist-phishing",
+    "firebog-neohosts",
+    "firebog-w3kbl",
+    "mvps-hosts",
+    "joewein"
+   ]
+  },
+  "everything": {
+   "bytes": 329849493,
+   "entries": 10757754,
+   "scrubbed": false,
+   "sha256": "86418f030de9d5c01352442bc1ebb81d6a6e85a0b81f69e34e04a4abbdef2c1c",
+   "sources": [
+    "adaway",
+    "mahakala",
+    "adguard-filter-50",
+    "adguard-filter-7",
+    "oisd-big",
+    "mandiant-apt1",
+    "hagezi-gambling",
+    "hagezi-pro-plus",
+    "hagezi-spam-tlds",
+    "hagezi-tif",
+    "quidsup-notrack",
+    "quidsup-notrack-malware",
+    "frogeye-firstparty-trackers",
+    "frogeye-multiparty-trackers",
+    "hostsfile-mine-nu",
+    "hostsfile-org",
+    "cyberhost-malware",
+    "malwarefilter-phishing",
+    "yoyo-adservers",
+    "phishing-army",
+    "stalkerware-indicators",
+    "dandelion-antimalware",
+    "fademind-unchecky-ads",
+    "fademind-2o7net",
+    "fademind-risk",
+    "fademind-spam",
+    "tr-phishinglist",
+    "kees-top-ads-trackers",
+    "perflyst-firetv",
+    "perflyst-smarttv",
+    "perflyst-android",
+    "kadhosts",
+    "rpilist-easylist",
+    "rpilist-malware",
+    "snafu",
+    "spam404",
+    "stevenblack-fakenews",
+    "stevenblack-hosts",
+    "yhosts",
+    "anudeep-adservers",
+    "anudeep-facebook",
+    "hostsvn",
+    "blocklistproject-crypto",
+    "chadmayfield-porn",
+    "windows-spy-blocker",
+    "scam-blocklist",
+    "matomo-referrer-spam",
+    "phishtank-tg12",
+    "disconnect-ad",
+    "disconnect-malvertising",
+    "someonewhocares",
+    "threatfox",
+    "urlhaus",
+    "firebog-adguard-dns",
+    "firebog-admiral",
+    "firebog-easylist",
+    "firebog-easyprivacy",
+    "firebog-kowabit",
+    "firebog-prigent-ads",
+    "firebog-prigent-adult",
+    "firebog-prigent-crypto",
+    "firebog-prigent-malware",
+    "firebog-rpilist-malware",
+    "firebog-rpilist-phishing",
+    "firebog-neohosts",
+    "firebog-w3kbl",
+    "mvps-hosts",
+    "joewein",
+    "oisd-nsfw"
+   ]
+  },
+  "junk": {
+   "bytes": 84723318,
+   "entries": 3190234,
+   "scrubbed": true,
+   "sha256": "306fab16f3cace947d46c515289af883b35d17f5a1ea1e4532400d948d918b30",
+   "sources": [
+    "oisd-big",
+    "hagezi-pro-plus",
+    "hagezi-spam-tlds",
+    "hagezi-tif",
+    "quidsup-notrack",
+    "frogeye-firstparty-trackers",
+    "frogeye-multiparty-trackers",
+    "fademind-2o7net",
+    "fademind-risk",
+    "fademind-spam",
+    "kees-top-ads-trackers",
+    "perflyst-firetv",
+    "perflyst-smarttv",
+    "perflyst-android",
+    "snafu",
+    "spam404",
+    "stevenblack-fakenews",
+    "blocklistproject-crypto",
+    "scam-blocklist",
+    "matomo-referrer-spam",
+    "firebog-easyprivacy",
+    "firebog-prigent-crypto"
+   ]
+  },
+  "sensitive": {
+   "bytes": 194978147,
+   "entries": 5894547,
+   "scrubbed": false,
+   "sha256": "50349923568bca2b94af782891547bad4831267685d7e0b62392e53f64613e13",
+   "sources": [
+    "oisd-big",
+    "hagezi-gambling",
+    "hagezi-pro-plus",
+    "stalkerware-indicators",
+    "chadmayfield-porn",
+    "windows-spy-blocker",
+    "firebog-prigent-adult",
+    "oisd-nsfw"
+   ]
+  }
+ },
+ "sources": {
+  "adaway": {
+   "accepted": 6540,
+   "error": "not downloaded",
+   "license_detected": ":",
+   "raw_bytes": 243454,
+   "raw_sha256": "8c925c37a5eaa5e1c582c76e12301797861addee5ad0fa0e6e46c9dd0136fe55",
+   "rejected": {
+    "blocked-name": 2
+   },
+   "samples": {
+    "blocked-name": [
+     "127.0.0.1  localhost",
+     "::1  localhost"
+    ]
+   },
+   "status": "cached",
+   "title": "",
+   "upstream_version": ""
+  },
+  "adguard-filter-50": {
+   "accepted": 2837,
+   "error": "not downloaded",
+   "license_detected": "",
+   "raw_bytes": 63022,
+   "raw_sha256": "3bf5e6f0de386881d466f451bf473c7dc981d49c86132519b613433a3a3d4c6c",
+   "rejected": {
+    "adblock-rule": 16,
+    "bad-label": 10,
+    "single-label": 75,
+    "wildcard": 135
+   },
+   "samples": {
+    "adblock-rule": [
+     "/\\/(?:[0-9a-z]{7,25}-){9,13}[0-9a-z]{10,15}\\/(?:[0-9a-z]+\\/)+index\\.php/",
+     "/_dating\\d\\/index\\.html\\?aref=/",
+     "://message1*.z13.web.core.windows.net^",
+     "/^https:\\/\\/[0-9a-z]{4}\\.[a-z]{15,}\\.monster\\/\\?[0-9a-f]{16,}$/"
+    ],
+    "bad-label": [
+     "://account.booking.xn--",
+     "||air-bnb.check-",
+     "||allegrolokalnie.pl-",
+     "||e-zpass.com-"
+    ],
+    "single-label": [
+     "||familysimulator.",
+     "||familysimulators.",
+     "||discordap.",
+     "||discord-give."
+    ],
+    "wildcard": [
+     "||dlscord*.",
+     "||dlscrod*.",
+     "||viruswarning*.web.core.windows.net^",
+     "||vnote-*.myqcloud.com^"
+    ]
+   },
+   "status": "cached",
+   "title": "uBlock\u2080 filters \u2013 Badware risks",
+   "upstream_version": "1.0.22.96"
+  },
+  "adguard-filter-7": {
+   "accepted": 144,
+   "error": "not downloaded",
+   "license_detected": "",
+   "raw_bytes": 4746,
+   "raw_sha256": "09ed15d56d8d5eea9e96631a7c65c2521ad2ae484e280d56610b21d0e0364d5a",
+   "rejected": {
+    "adblock-rule": 4,
+    "allow-rule": 9,
+    "wildcard": 3
+   },
+   "samples": {
+    "adblock-rule": [
+     "|lgtvsdp.com^",
+     "|samsungcloudsolution.com^",
+     "|samsungcloudsolution.net^",
+     "|samsungqbe.com^"
+    ],
+    "allow-rule": [
+     "@@||mhc-ajax-eu.myhomescreen.tv^",
+     "@@||mhc-ajax-eu-s2.myhomescreen.tv^",
+     "@@||mhc-xpana-eu.myhomescreen.tv^",
+     "@@||mhc-xpana-eu-s2.myhomescreen.tv^"
+    ],
+    "wildcard": [
+     "||hbbtv.*.de^",
+     "||api.*.hismarttv.com^",
+     "||fls-*.amazon.com^"
+    ]
+   },
+   "status": "cached",
+   "title": "Perflyst and Dandelion Sprout's Smart-TV Blocklist",
+   "upstream_version": "1.0.14.55"
+  },
+  "anudeep-adservers": {
+   "accepted": 42341,
+   "error": "not downloaded",
+   "license_detected": "E",
+   "raw_bytes": 1354227,
+   "raw_sha256": "4cbe4ca57d726b9964f5b782cc7c211243cd7f7fa4b5947af3a2b3ec3560477e",
+   "rejected": {
+    "bad-label": 15,
+    "too-many-labels": 2
+   },
+   "samples": {
+    "bad-label": [
+     "0.0.0.0 chicago_cbslocal.us.intellitxt.com",
+     "0.0.0.0 dmol_mn.adk2x.com",
+     "0.0.0.0 es-sunicontent_test.videoplaza.tv",
+     "0.0.0.0 i_mobistar.tealiumiq.com"
+    ],
+    "too-many-labels": [
+     "0.0.0.0 mtb.d1.sc.omtrdc.netmtb.d1.sc.omtrdc.net",
+     "0.0.0.0 synchronyfinancial.d1.sc.omtrdc.netsynchronyfinancial.d1.sc.omtrdc.net"
+    ]
+   },
+   "status": "cached",
+   "title": "Anudeep's Blacklist",
+   "upstream_version": ""
+  },
+  "anudeep-facebook": {
+   "accepted": 3994,
+   "error": "not downloaded",
+   "license_detected": "E",
+   "raw_bytes": 160679,
+   "raw_sha256": "c8176f2e6c5e2f3e2e15e6441517d4619eaddbc5d5e1dcd17864668ee7a3cff2",
+   "rejected": {
+    "bad-label": 1,
+    "too-many-labels": 1
+   },
+   "samples": {
+    "bad-label": [
+     "0.0.0.0 proxygen_verifier.facebook.com"
+    ],
+    "too-many-labels": [
+     "0.0.0.0 0.facebook.com.cgi-bin.nph-roxy.cgi.0.http.0.facebook.com"
+    ]
+   },
+   "status": "cached",
+   "title": "Anudeep's Facebook Blacklist",
+   "upstream_version": ""
+  },
+  "barbblock": {},
+  "blocklistproject-crypto": {
+   "accepted": 1274,
+   "error": "not downloaded",
+   "license_detected": "",
+   "raw_bytes": 27787,
+   "raw_sha256": "5959265e5f86346c9561d3d8b599922584eee7afcdcf208465e4380bf6507b17",
+   "rejected": {},
+   "samples": {},
+   "status": "cached",
+   "title": "",
+   "upstream_version": ""
+  },
+  "chadmayfield-porn": {
+   "accepted": 11868,
+   "error": "not downloaded",
+   "license_detected": "",
+   "raw_bytes": 206038,
+   "raw_sha256": "b8f84cf9119be05364e81b4debe3084cf02d7e6ed3443397a448bc609562ec10",
+   "rejected": {},
+   "samples": {},
+   "status": "cached",
+   "title": "",
+   "upstream_version": ""
+  },
+  "cyberhost-malware": {
+   "accepted": 91562,
+   "error": "not downloaded",
+   "license_detected": "",
+   "raw_bytes": 6567545,
+   "raw_sha256": "ee942769da5fa086b35d5d00b7dcbad1b8a82b341c6c58e1cabc4c54b03d30ce",
+   "rejected": {
+    "blocked-suffix": 10,
+    "too-many-labels": 24
+   },
+   "samples": {
+    "blocked-suffix": [
+     "rc.local",
+     "mesh.softimus.local",
+     "lrjlab11.sgb.local",
+     "mesh.estesfinancial.internal"
+    ],
+    "too-many-labels": [
+     "yandex.www.community.san.277453d81e441bf8c177e738491265.youla.yandex.pay.prod05.comulogin.media.se.static.phpm",
+     "pay.pay.www.sitemap.sberbank.app.pay.avito.blablacar.covid19.oldcartradersc31930082634289b3a98aa4eae1fd671.sec",
+     "pay.ww1.gitlab.theweddingofadelfirda.vid05.comulogin.media.se.static.phpmyadmin.admin.blog.cheftollu.com",
+     "www.com.cgi.bin.webscr.cmd.login.submit.dispatch.update.account.paypal.confirm.account.m209.bsturismo.com.br"
+    ]
+   },
+   "status": "cached",
+   "title": "",
+   "upstream_version": ""
+  },
+  "dandelion-antimalware": {
+   "accepted": 11761,
+   "error": "not downloaded",
+   "license_detected": "",
+   "raw_bytes": 398218,
+   "raw_sha256": "dc29b4c55b7b3184d637b799037b5a6f440f215b3bf03b22b38a1cd83f4ff7f5",
+   "rejected": {
+    "ip-alias-line": 595,
+    "single-label": 5
+   },
+   "samples": {
+    "ip-alias-line": [
+     "127.0.0.1 109.201.135.46",
+     "127.0.0.1 138.68.252.54",
+     "127.0.0.1 173.208.96.42",
+     "127.0.0.1 173.208.96.43"
+    ],
+    "single-label": [
+     "127.0.0.1 dhl-commx.",
+     "://[2604:2dc0:100:4ed8::]",
+     "://[2604:2dc0:104:da00::]",
+     "://[2600:3c06::f03c:95ff:fed9:ce5e]"
+    ]
+   },
+   "status": "cached",
+   "title": "\ud83d\udc8a Dandelion Sprout's Anti-Malware List (\u00abhosts\u00bb file version)",
+   "upstream_version": ""
+  },
+  "digitalside": {},
+  "disconnect-ad": {
+   "accepted": 2697,
+   "error": "not downloaded",
+   "license_detected": "GPLv3",
+   "raw_bytes": 43604,
+   "raw_sha256": "ac0360be31da0ddac23a407af6216008d656390d3bbdefac48db292aeec7216d",
+   "rejected": {
+    "blocked-suffix": 3
+   },
+   "samples": {
+    "blocked-suffix": [
+     "accounts.pkr.com.invalid",
+     "bravenet.com.invalid",
+     "seeq.com.invalid"
+    ]
+   },
+   "status": "cached",
+   "title": "",
+   "upstream_version": ""
+  },
+  "disconnect-malvertising": {
+   "accepted": 2732,
+   "error": "not downloaded",
+   "license_detected": "GPLv3",
+   "raw_bytes": 44155,
+   "raw_sha256": "769a4de32c69d5efd980054b2bac3945e2afa3cc36b874810da3c7fe8c744bba",
+   "rejected": {
+    "blocked-suffix": 3,
+    "single-label": 1
+   },
+   "samples": {
+    "blocked-suffix": [
+     "accounts.pkr.com.invalid",
+     "bravenet.com.invalid",
+     "seeq.com.invalid"
+    ],
+    "single-label": [
+     "Malvertising list by Disconnect"
+    ]
+   },
+   "status": "cached",
+   "title": "",
+   "upstream_version": ""
+  },
+  "fademind-2o7net": {
+   "accepted": 2030,
+   "error": "not downloaded",
+   "license_detected": "",
+   "raw_bytes": 68159,
+   "raw_sha256": "5d9353a1294c0c12fb6caa7c9178224ae601f59a159ea5e4677da6b36208c876",
+   "rejected": {},
+   "samples": {},
+   "status": "cached",
+   "title": "",
+   "upstream_version": ""
+  },
+  "fademind-risk": {
+   "accepted": 2189,
+   "error": "not downloaded",
+   "license_detected": "",
+   "raw_bytes": 58157,
+   "raw_sha256": "baedee79b7a3b9e1825080f4daf42a7d9dc37eda03a4381b332b7ef807129b0e",
+   "rejected": {},
+   "samples": {},
+   "status": "cached",
+   "title": "",
+   "upstream_version": ""
+  },
+  "fademind-spam": {
+   "accepted": 57,
+   "error": "not downloaded",
+   "license_detected": "",
+   "raw_bytes": 1628,
+   "raw_sha256": "5e925892954443b0b0dcbfc26926d2f48e86034935887aad75a9aaaa0a8eeccc",
+   "rejected": {},
+   "samples": {},
+   "status": "cached",
+   "title": "",
+   "upstream_version": ""
+  },
+  "fademind-unchecky-ads": {
+   "accepted": 9,
+   "error": "not downloaded",
+   "license_detected": "",
+   "raw_bytes": 276,
+   "raw_sha256": "c60b7ee16362fa5848bd257a14854b240e793735a2310669f2f889f391a00d70",
+   "rejected": {},
+   "samples": {},
+   "status": "cached",
+   "title": "",
+   "upstream_version": ""
+  },
+  "firebog-adguard-dns": {
+   "accepted": 176581,
+   "error": "not downloaded",
+   "license_detected": "",
+   "raw_bytes": 3701579,
+   "raw_sha256": "8215b97f2ed8b3d033caf17d7413b7d374953baa6c12547967626b473961a0a3",
+   "rejected": {
+    "too-many-labels": 1
+   },
+   "samples": {
+    "too-many-labels": [
+     "ei-api.gwy.ei-elastic-test-amq-1a-006.easyjet.com.edgekey.net.easyjet.com"
+    ]
+   },
+   "status": "cached",
+   "title": "",
+   "upstream_version": ""
+  },
+  "firebog-admiral": {
+   "accepted": 1629,
+   "error": "not downloaded",
+   "license_detected": "",
+   "raw_bytes": 28438,
+   "raw_sha256": "999c8c4b23b1f4c2c55f7579372325f0cc34c5158b459849319eb42a7145966f",
+   "rejected": {},
+   "samples": {},
+   "status": "cached",
+   "title": "",
+   "upstream_version": ""
+  },
+  "firebog-easylist": {
+   "accepted": 44718,
+   "error": "not downloaded",
+   "license_detected": "",
+   "raw_bytes": 862756,
+   "raw_sha256": "0985bcad9fff454a9cc2bcd36b399fc2305fc04c6d74b312c26de65010ae8bd4",
+   "rejected": {},
+   "samples": {},
+   "status": "cached",
+   "title": "",
+   "upstream_version": ""
+  },
+  "firebog-easyprivacy": {
+   "accepted": 43157,
+   "error": "not downloaded",
+   "license_detected": "",
+   "raw_bytes": 944786,
+   "raw_sha256": "050eb5f1542f7e273b8aad4b43b852016a156eac45fbacedea42d708cfb80edd",
+   "rejected": {
+    "bad-label": 1
+   },
+   "samples": {
+    "bad-label": [
+     "fb_servpub-a.akamaihd.net"
+    ]
+   },
+   "status": "cached",
+   "title": "",
+   "upstream_version": ""
+  },
+  "firebog-kowabit": {
+   "accepted": 7680,
+   "error": "not downloaded",
+   "license_detected": "",
+   "raw_bytes": 116849,
+   "raw_sha256": "49fed67826eda633ed87d77708e2c0d118319142887d986217b68c6df867f58a",
+   "rejected": {},
+   "samples": {},
+   "status": "cached",
+   "title": "",
+   "upstream_version": ""
+  },
+  "firebog-neohosts": {
+   "accepted": 2411,
+   "error": "not downloaded",
+   "license_detected": "",
+   "raw_bytes": 44305,
+   "raw_sha256": "252d8771215715e8fbc85d0cdb782d7a48af7b07c9a37636b0ecf29ca3faef4a",
+   "rejected": {
+    "blocked-name": 1
+   },
+   "samples": {
+    "blocked-name": [
+     "localhost"
+    ]
+   },
+   "status": "cached",
+   "title": "",
+   "upstream_version": ""
+  },
+  "firebog-prigent-ads": {
+   "accepted": 4269,
+   "error": "not downloaded",
+   "license_detected": "",
+   "raw_bytes": 70554,
+   "raw_sha256": "6126c8ae08351c0feee0aeb47df3d8bd8ca38cd0ae467e23911b0aeea71aa4ff",
+   "rejected": {},
+   "samples": {},
+   "status": "cached",
+   "title": "",
+   "upstream_version": ""
+  },
+  "firebog-prigent-adult": {
+   "accepted": 4590144,
+   "error": "not downloaded",
+   "license_detected": "",
+   "raw_bytes": 124426915,
+   "raw_sha256": "5684057f5d05e8ee830c77438c8d550e9a37dd17fd66b4c75e4157d5d760644f",
+   "rejected": {
+    "bad-label": 1711,
+    "hyphen-run": 34,
+    "single-label": 4,
+    "too-many-labels": 161
+   },
+   "samples": {
+    "bad-label": [
+     "10000_gratis_sexfoto.jouwpagina.nl",
+     "2709427487654260648_3fa8f3948d53b3e389d6cc532c19ed87846865fd.blogspot.com",
+     "3449924098619522733_feaf14a1dd8236be6b6720990d895e82e5cfd1ee.blogspot.ae",
+     "3449924098619522733_feaf14a1dd8236be6b6720990d895e82e5cfd1ee.blogspot.al"
+    ],
+    "hyphen-run": [
+     "ebony-------sex.com",
+     "free-------sex-photos.com",
+     "free------porn.com",
+     "fuck-------me.tumblr.com"
+    ],
+    "single-label": [
+     "xxx",
+     "porn",
+     "sex",
+     "adult"
+    ],
+    "too-many-labels": [
+     "0.0.0.0.0.0.0.0.0.y.free.fr",
+     "0.0.0.0.0.0.0.0.0z1.free.fr",
+     "0.0.0.0.0.0.0.0.chat.free.fr",
+     "190.195.static.wline.lns.sme.cust.swisscom-ipv6.ch"
+    ]
+   },
+   "status": "cached",
+   "title": "",
+   "upstream_version": ""
+  },
+  "firebog-prigent-crypto": {
+   "accepted": 11490,
+   "error": "not downloaded",
+   "license_detected": "",
+   "raw_bytes": 203972,
+   "raw_sha256": "397cd9f67a64851be3c67fd5f743580111e60447d4fb14541c57b8e849c0da65",
+   "rejected": {},
+   "samples": {},
+   "status": "cached",
+   "title": "",
+   "upstream_version": ""
+  },
+  "firebog-prigent-malware": {
+   "accepted": 242082,
+   "error": "not downloaded",
+   "license_detected": "",
+   "raw_bytes": 4653499,
+   "raw_sha256": "dd8e905ace3f0efeed867fb32ab9a1134e4e2a04766780941272ec8f2b1a7483",
+   "rejected": {
+    "hyphen-run": 6,
+    "too-many-labels": 32
+   },
+   "samples": {
+    "hyphen-run": [
+     "docs--wallet------ledger.webflow.io",
+     "mail2myeast-------pro-messages-communicationscenter.weebly.com",
+     "reag----------anwlsupportteamadmsection001wardsectionsupp.weebly.com",
+     "secure-blockfi------sso-cdn.webflow.io"
+    ],
+    "too-many-labels": [
+     "3www.git.git.git.git.test.cpcalendars.megabahisi.com",
+     "cnicloud.find.to.estxid.cnto.estxid.cnestxid.cnicloud.find.to.estxid.cn",
+     "desmos.everfi.microsoftteams.172.93.104.11.backname.io",
+     "dreambox.goguardian.ixl.172.93.104.11.backname.io"
+    ]
+   },
+   "status": "cached",
+   "title": "",
+   "upstream_version": ""
+  },
+  "firebog-rpilist-malware": {
+   "accepted": 624017,
+   "error": "not downloaded",
+   "license_detected": "",
+   "raw_bytes": 14949158,
+   "raw_sha256": "a32b9f7873ff8b761e0b9a4c947f5a48ee288567e981820901cf9e831cffbe8f",
+   "rejected": {
+    "hyphen-run": 10,
+    "too-many-labels": 60
+   },
+   "samples": {
+    "hyphen-run": [
+     "||a101--------girisler.cyou^",
+     "||a101--------girisler.xyz^",
+     "||bakiye-----hgs-----ptt------com.net^",
+     "||budd4--7-----------register2025.blogspot.com^"
+    ],
+    "too-many-labels": [
+     "||31.128.173.853.zhzy999.net31.128.173.853.zhzy999.net^",
+     "||3www.git.git.git.git.test.cpcalendars.megabahisi.com^",
+     "||42.157.79.83.dynamic.wline.res.cust.swisscom.ch^",
+     "||6.0.0.37050.2863923067.3163759174.0.0.b48b4b4c879e7211d6a13e26a8a914aaf6c218653840e81d9f.hfuidhfd.jp^"
+    ]
+   },
+   "status": "cached",
+   "title": "",
+   "upstream_version": ""
+  },
+  "firebog-rpilist-phishing": {
+   "accepted": 163396,
+   "error": "not downloaded",
+   "license_detected": "",
+   "raw_bytes": 3859458,
+   "raw_sha256": "57a1edc1ad00b3b57275360203c3a7673be8712d2117d5fa16a4073846264f6a",
+   "rejected": {
+    "too-many-labels": 7
+   },
+   "samples": {
+    "too-many-labels": [
+     "||accounts.google.login.secure.id.google.com.zkey0.com^",
+     "||mijn.overheid.nl.berichtenbox.services.kwi1f1q3vdcyxneqfiwfifts5uroqrpavwvhkg1k6monzla9ktv8.cbrmedical.com.b",
+     "||mijn.overheid.nl.berichtenbox.services.kwp7z384yrdou64sro4kufv3kaygbdx3jfg6wmufnjfaskeuvoz3.rutrainfo.com.br",
+     "||paypal.com.cgi-bin.webscr-cmd726f91e12e61be224f224df6bd32e6127z.8a7b7064cc4ba375cc0d415be95807ecdeed6f28.487"
+    ]
+   },
+   "status": "cached",
+   "title": "",
+   "upstream_version": ""
+  },
+  "firebog-w3kbl": {
+   "accepted": 351,
+   "error": "not downloaded",
+   "license_detected": "s/by/4.0/)",
+   "raw_bytes": 8440,
+   "raw_sha256": "6fea64b3c3cab7ca79147b7880c61871a89c7a7f802f4df00bceb167dfefac20",
+   "rejected": {},
+   "samples": {},
+   "status": "cached",
+   "title": "",
+   "upstream_version": ""
+  },
+  "frogeye-firstparty-trackers": {
+   "accepted": 14483,
+   "error": "not downloaded",
+   "license_detected": "E",
+   "raw_bytes": 469208,
+   "raw_sha256": "27a88daa01e4e3befc68ddf5038872c01607db66b4709a567e4d16b98592e0b0",
+   "rejected": {},
+   "samples": {},
+   "status": "cached",
+   "title": "",
+   "upstream_version": ""
+  },
+  "frogeye-multiparty-trackers": {
+   "accepted": 18917,
+   "error": "not downloaded",
+   "license_detected": "E",
+   "raw_bytes": 619201,
+   "raw_sha256": "b377756eeaeb3abdc5f90862babd6493ac4db617e731d46e96b029156030d8de",
+   "rejected": {
+    "bad-label": 2
+   },
+   "samples": {
+    "bad-label": [
+     "0.0.0.0 _dmarc.em.sparklight.com",
+     "0.0.0.0 _dmarc.et.sparklight.com"
+    ]
+   },
+   "status": "cached",
+   "title": "",
+   "upstream_version": ""
+  },
+  "hagezi-gambling": {
+   "accepted": 574780,
+   "error": "not downloaded",
+   "license_detected": "E",
+   "raw_bytes": 11701708,
+   "raw_sha256": "533b9783edc66b0a5ccbd8fd60149a21360937dc270c8bffdc25ce0dafa68c82",
+   "rejected": {},
+   "samples": {},
+   "status": "cached",
+   "title": "HaGeZi's Gambling - blocks gambling content!",
+   "upstream_version": ""
+  },
+  "hagezi-hoster": {},
+  "hagezi-pro-plus": {
+   "accepted": 248143,
+   "error": "not downloaded",
+   "license_detected": "E",
+   "raw_bytes": 5527961,
+   "raw_sha256": "3a49c1739d268f2b0457a44fa3acb0400ec2d526b0b29c0c8a43645e5446f907",
+   "rejected": {
+    "too-many-labels": 94
+   },
+   "samples": {
+    "too-many-labels": [
+     "||telemetry.cell-0.ap-northeast-1.prod.tangerinebox.console.aws.a2z.com^",
+     "||telemetry.cell-0.ap-south-1.prod.tangerinebox.console.aws.a2z.com^",
+     "||telemetry.cell-0.ap-southeast-1.prod.tangerinebox.console.aws.a2z.com^",
+     "||telemetry.cell-0.ap-southeast-2.prod.tangerinebox.console.aws.a2z.com^"
+    ]
+   },
+   "status": "cached",
+   "title": "HaGeZi's Multi PRO++ - advanced protection (more aggressive)",
+   "upstream_version": ""
+  },
+  "hagezi-spam-tlds": {
+   "accepted": 10,
+   "error": "not downloaded",
+   "license_detected": "E",
+   "raw_bytes": 1977,
+   "raw_sha256": "2f4b810fa138fc6abf18d4521c9a821b21798452ef7c10585d9c0458c6998ce9",
+   "rejected": {
+    "single-label": 120
+   },
+   "samples": {
+    "single-label": [
+     "||actor^",
+     "||apartments^",
+     "||auction^",
+     "||autos^"
+    ]
+   },
+   "status": "cached",
+   "title": "HaGeZi's The World's Most Abused TLDs",
+   "upstream_version": ""
+  },
+  "hagezi-tif": {
+   "accepted": 2370165,
+   "error": "not downloaded",
+   "license_detected": "E",
+   "raw_bytes": 48529917,
+   "raw_sha256": "ecb4192042f4e68d7e65e26302e05981036612fcec297d783aeec0b3399bc957",
+   "rejected": {
+    "hyphen-run": 17,
+    "too-many-labels": 56
+   },
+   "samples": {
+    "hyphen-run": [
+     "||m.facebook.com------------validate---account.disos.xyz^",
+     "||07m---------t-------nn-------------5-----------------------7.xyz^",
+     "||blsp--------at.online^",
+     "||cloudss--------1524.top^"
+    ],
+    "too-many-labels": [
+     "||sbermarket.www.nalozhka.ssqkfeq04h8mfmbj.www.sberbank.pochtabank.claid3c54.18bf4d.top^",
+     "||sber.nalozhka.sberbank.yandex.sbermegamarket.avito.yandex.nld4sndn.28473244.xyz^",
+     "||ozon.pay.ozon.wwwsberbank.spzyaavito.yandex.avito.od3d3.6bc.cc^",
+     "||cdek.sberbank.yandex.sberbank.youla.sbermarket.cdek.nalozhka.apkmod2k.com^"
+    ]
+   },
+   "status": "cached",
+   "title": "HaGeZi's Threat Intelligence Feeds - a serious security boost (recommended)",
+   "upstream_version": ""
+  },
+  "hostsfile-mine-nu": {
+   "accepted": 113069,
+   "error": "not downloaded",
+   "license_detected": "d",
+   "raw_bytes": 3295447,
+   "raw_sha256": "288ea07c63bb12dc4f3862dea1a1edd818b85a31c6e3a09f7acca0939ad268b4",
+   "rejected": {
+    "bad-label": 10,
+    "blocked-name": 1,
+    "too-many-labels": 3
+   },
+   "samples": {
+    "bad-label": [
+     "0.0.0.0\tzn_3ftuzmeiii1hq6p-photobucket.siteintercept.qualtrics.com",
+     "0.0.0.0\tfree_toolbar.mystoretoolbar.com",
+     "0.0.0.0\txmr.-eu1.nanopool.org",
+     "0.0.0.0\t-gtrafficim.tf"
+    ],
+    "blocked-name": [
+     "127.0.0.1\tlocalhost"
+    ],
+    "too-many-labels": [
+     "0.0.0.0\tspymarshall-3.2.warez.full.download.crack.serial.ddl2.com",
+     "0.0.0.0\twww.spymarshall-3.2.warez.full.download.crack.serial.ddl2.com",
+     "0.0.0.0\tr1.gslb.beta.ace.advertising.com.adcom.akadns.net"
+    ]
+   },
+   "status": "cached",
+   "title": "",
+   "upstream_version": ""
+  },
+  "hostsfile-org": {
+   "accepted": 25241,
+   "error": "not downloaded",
+   "license_detected": "d",
+   "raw_bytes": 793711,
+   "raw_sha256": "ad8aa838cf9bd29389f350bb1e187e6ec605e45379214ba1082d50631fa40d3d",
+   "rejected": {
+    "bad-label": 22,
+    "blocked-name": 1
+   },
+   "samples": {
+    "bad-label": [
+     "127.0.0.1\t222-33544_999.pub.adfirmative.com",
+     "127.0.0.1\t7979-69504_159.c.adprotect.net",
+     "127.0.0.1\t___id___.c.mystat-in.net",
+     "127.0.0.1\t_thums.ero-advertising.com"
+    ],
+    "blocked-name": [
+     "127.0.0.1\tlocalhost"
+    ]
+   },
+   "status": "cached",
+   "title": "",
+   "upstream_version": ""
+  },
+  "hostsvn": {
+   "accepted": 18438,
+   "error": "not downloaded",
+   "license_detected": "",
+   "raw_bytes": 524257,
+   "raw_sha256": "b2aa61dd6b133dfc9b1f12947c887f66590105f6c7d555822aaa4dcdf7e25892",
+   "rejected": {},
+   "samples": {},
+   "status": "cached",
+   "title": "hostsVN",
+   "upstream_version": ""
+  },
+  "joewein": {
+   "accepted": 59421,
+   "error": "not downloaded",
+   "license_detected": "",
+   "raw_bytes": 1080850,
+   "raw_sha256": "4d8dbbbb797e8c7146f277fd68f511dd9be281a9ea17099c538277fcfa9b7e6f",
+   "rejected": {
+    "bad-tld": 81,
+    "hyphen-run": 26
+   },
+   "samples": {
+    "bad-tld": [
+     "104.223.107.19",
+     "104.223.170.43",
+     "104.223.170.45",
+     "107.179.84.189"
+    ],
+    "hyphen-run": [
+     "xn-------43deaf0btgccvcirishmb7dpeac72a.xn--p1ai",
+     "xn-------53dardnca2aghbbc0bzaqbic4a4a8bge7p.xn--p1ai",
+     "xn------5cdaabcxdtrceeqbvno2a7fuaq0b2hqfg.xn--p1ai",
+     "xn------5cdaaqbojaafpcf7bm1b3blx6ak4w.xn--p1ai"
+    ]
+   },
+   "status": "cached",
+   "title": "",
+   "upstream_version": ""
+  },
+  "kadhosts": {
+   "accepted": 39619,
+   "error": "not downloaded",
+   "license_detected": "CC",
+   "raw_bytes": 1262321,
+   "raw_sha256": "c030fe440b4eafc39a215287264dcaf431d177805678874b983055d4f47d761e",
+   "rejected": {},
+   "samples": {},
+   "status": "cached",
+   "title": "KADhosts",
+   "upstream_version": ""
+  },
+  "kees-top-ads-trackers": {
+   "accepted": 3611,
+   "error": "not downloaded",
+   "license_detected": "",
+   "raw_bytes": 81296,
+   "raw_sha256": "0f1f769640623488c4cc4dc36ffc4ef54600165c2fc051e2fc24dfa204d21961",
+   "rejected": {
+    "blocked-suffix": 1,
+    "single-label": 1
+   },
+   "samples": {
+    "blocked-suffix": [
+     "0.0.0.0 seeq.com.invalid"
+    ],
+    "single-label": [
+     "0.0.0.0 oneaudience"
+    ]
+   },
+   "status": "cached",
+   "title": "EU US most prevalent ads & trackers HOST format",
+   "upstream_version": ""
+  },
+  "mahakala": {
+   "accepted": 349997,
+   "error": "not downloaded",
+   "license_detected": "",
+   "raw_bytes": 10664185,
+   "raw_sha256": "6832dda22304ca3d8fa88df9c9031b18bcd6fe9fdc47878796c0ab6b555d40cc",
+   "rejected": {
+    "bad-label": 16,
+    "bad-tld": 4,
+    "blocked-name": 13,
+    "ip-alias-line": 2,
+    "too-many-labels": 485
+   },
+   "samples": {
+    "bad-label": [
+     "0.0.0.0 09_19.supfree.net",
+     "0.0.0.0 ad_rta.sp.mbga.jp",
+     "0.0.0.0 camera_1.co.za",
+     "0.0.0.0 cr_stats.upscore.com"
+    ],
+    "bad-tld": [
+     "0.0.0.0 allegro.pl-com",
+     "0.0.0.0 pgl.example0101",
+     "0.0.0.0 www.allegro.pl-com",
+     "0.0.0.0 www.pl-com"
+    ],
+    "blocked-name": [
+     "127.0.0.1 localhost",
+     "127.0.0.1 localhost.localdomain",
+     "127.0.0.1 local",
+     "255.255.255.255 broadcasthost"
+    ],
+    "ip-alias-line": [
+     "0.0.0.0 0.0.0.0",
+     "0.0.0.0 0.0.0.0"
+    ],
+    "too-many-labels": [
+     "0.0.0.0 13.p9.webhosting.luminate.comrlno.us.2.p9.webhosting.luminate.comrtb-us.2.p11.webhosting.luminate.comr",
+     "0.0.0.0 13.p9.webhosting.luminate.comrlno.us.2.p9.webhosting.luminate.comrtb-us.2.p11.webhosting.luminate.comr",
+     "0.0.0.0 18.p11.dns-us.luminate.comro.20.p12.webhosting.luminate.com",
+     "0.0.0.0 18.p11.dnsserver.luminate.comro.20.p12.webhosting.luminate.com"
+    ]
+   },
+   "status": "cached",
+   "title": "",
+   "upstream_version": ""
+  },
+  "malwarefilter-phishing": {
+   "accepted": 39331,
+   "error": "not downloaded",
+   "license_detected": "e",
+   "raw_bytes": 1437699,
+   "raw_sha256": "ffdd36b9826ffbddb162797ef7a5cf7aaab84dab23a89ec21aa255ffad2c2201",
+   "rejected": {
+    "bad-label": 23,
+    "too-many-labels": 3
+   },
+   "samples": {
+    "bad-label": [
+     "0.0.0.0 103-219-58-100_s-23-215-0-13_ts-1718634508-clienttons-s.akamaihd.net",
+     "0.0.0.0 bonheur_sources.godaddysites.com",
+     "0.0.0.0 bridge_trezo-cdn.teachable.com",
+     "0.0.0.0 coin_baasee_prologion.godaddysites.com"
+    ],
+    "too-many-labels": [
+     "0.0.0.0 https.m.facebook.com.ttcysuttlart1999.aylandirow.tmf.org.ru",
+     "0.0.0.0 mijn.overheid.nl.berichtenbox.services.kwi1f1q3vdcyxneqfiwfifts5uroqrpavwvhkg1k6monzla9ktv8.cbrmedical",
+     "0.0.0.0 mijn.overheid.nl.berichtenbox.services.kwp7z384yrdou64sro4kufv3kaygbdx3jfg6wmufnjfaskeuvoz3.rutrainfo."
+    ]
+   },
+   "status": "cached",
+   "title": "Phishing Hosts Blocklist",
+   "upstream_version": ""
+  },
+  "mandiant-apt1": {
+   "accepted": 2046,
+   "error": "not downloaded",
+   "license_detected": "",
+   "raw_bytes": 43844,
+   "raw_sha256": "3052a65fae7b9de3afc6216d9136edcb815af9f992f435f14780825af4c1ff7c",
+   "rejected": {},
+   "samples": {},
+   "status": "cached",
+   "title": "",
+   "upstream_version": ""
+  },
+  "matomo-referrer-spam": {
+   "accepted": 2350,
+   "error": "not downloaded",
+   "license_detected": "",
+   "raw_bytes": 37727,
+   "raw_sha256": "640a63e8324b441c5f22240308e3925cea57464ffaafe6174cfd46c3925c6751",
+   "rejected": {
+    "hyphen-run": 2
+   },
+   "samples": {
+    "hyphen-run": [
+     "xn-------53dbcapga5atlplfdm6ag1ab1bvehl0b7toa0k.xn--p1ai",
+     "xn------6cdbciescapvf0a8bibwx0a1bu.xn--90ais"
+    ]
+   },
+   "status": "cached",
+   "title": "",
+   "upstream_version": ""
+  },
+  "mvps-hosts": {
+   "accepted": 8728,
+   "error": "not downloaded",
+   "license_detected": "terms.",
+   "raw_bytes": 334861,
+   "raw_sha256": "305d2e095e5aa2bebb80384c1325354f4f477c2097fc5dbe9b10c49c1fc4453a",
+   "rejected": {
+    "bad-label": 1,
+    "blocked-name": 1,
+    "empty": 1,
+    "single-label": 1
+   },
+   "samples": {
+    "bad-label": [
+     "0.0.0.0 philadelphia_cbslocal.us.intellitxt.com"
+    ],
+    "blocked-name": [
+     "127.0.0.1 localhost"
+    ],
+    "empty": [
+     "::1 localhost #[IPv6]"
+    ],
+    "single-label": [
+     "0.0.0.0 ___id___.c.mystat-in.net #[Wildcard DNS]"
+    ]
+   },
+   "status": "cached",
+   "title": "",
+   "upstream_version": ""
+  },
+  "oisd-big": {
+   "accepted": 244238,
+   "error": "not downloaded",
+   "license_detected": "",
+   "raw_bytes": 5644458,
+   "raw_sha256": "e5790b405c2515a3d07b6f925584cd80d43978e56f8d7a9534b4439dc9821488",
+   "rejected": {
+    "hyphen-run": 4
+   },
+   "samples": {
+    "hyphen-run": [
+     "||m.facebook.com-----------------secured----account---confirmation.rel360.com^",
+     "||m.facebook.com-----------------securelogin---confirm.giftcardisrael.com^",
+     "||m.facebook.com------------validate---account.disos.xyz^",
+     "||m.facebook.com--------confirm.aznet1.net^"
+    ]
+   },
+   "status": "cached",
+   "title": "oisd big",
+   "upstream_version": "202610030512"
+  },
+  "oisd-nsfw": {
+   "accepted": 470987,
+   "error": "not downloaded",
+   "license_detected": "",
+   "raw_bytes": 9892973,
+   "raw_sha256": "3b4b9eb67a9221b510ca1d473f261cf14bf689972799b2f797d0f755f3f8e287",
+   "rejected": {
+    "hyphen-run": 1,
+    "single-label": 4
+   },
+   "samples": {
+    "hyphen-run": [
+     "||get--------link.blogspot.com^"
+    ],
+    "single-label": [
+     "||adult^",
+     "||porn^",
+     "||sex^",
+     "||xxx^"
+    ]
+   },
+   "status": "cached",
+   "title": "oisd nsfw",
+   "upstream_version": "202610030435"
+  },
+  "perflyst-android": {
+   "accepted": 80,
+   "error": "not downloaded",
+   "license_detected": "",
+   "raw_bytes": 2153,
+   "raw_sha256": "164b9bbb1030b69da5d0c2f5a327c7780c9674dc589f65996a974bb0184814ab",
+   "rejected": {},
+   "samples": {},
+   "status": "cached",
+   "title": "",
+   "upstream_version": ""
+  },
+  "perflyst-firetv": {
+   "accepted": 16,
+   "error": "not downloaded",
+   "license_detected": "",
+   "raw_bytes": 1502,
+   "raw_sha256": "22d719cde872d51365f350e142e102be5c53dcbd668a795c0f51c14d1d812fbb",
+   "rejected": {},
+   "samples": {},
+   "status": "cached",
+   "title": "",
+   "upstream_version": ""
+  },
+  "perflyst-smarttv": {
+   "accepted": 497,
+   "error": "not downloaded",
+   "license_detected": "",
+   "raw_bytes": 16594,
+   "raw_sha256": "d891473d90fc1caee465b1feb60d20b3b3ee2f90a398ae40aaf215f0050c9d4a",
+   "rejected": {
+    "bad-label": 1
+   },
+   "samples": {
+    "bad-label": [
+     "_xmpp-client._tcp.managed.xmpp.foxtel.com.au"
+    ]
+   },
+   "status": "cached",
+   "title": "Smart-TV Blocklist for Pi-hole",
+   "upstream_version": ""
+  },
+  "phishing-army": {
+   "accepted": 146410,
+   "error": "not downloaded",
+   "license_detected": "d",
+   "raw_bytes": 3032333,
+   "raw_sha256": "11cf51c7ad27bb55975ca2c1b8e1ccaec2e99a4df2ab079c8d259e566c7ddef9",
+   "rejected": {
+    "too-many-labels": 6
+   },
+   "samples": {
+    "too-many-labels": [
+     "accounts.google.login.secure.id.google.com.zkey0.com",
+     "mijn.overheid.nl.berichtenbox.services.kwi1f1q3vdcyxneqfiwfifts5uroqrpavwvhkg1k6monzla9ktv8.cbrmedical.com.br",
+     "mijn.overheid.nl.berichtenbox.services.kwp7z384yrdou64sro4kufv3kaygbdx3jfg6wmufnjfaskeuvoz3.rutrainfo.com.br",
+     "www.dc.crsorgi.gov.in.index.crs.certificate4.com"
+    ]
+   },
+   "status": "cached",
+   "title": "",
+   "upstream_version": ""
+  },
+  "phishtank-tg12": {
+   "accepted": 49851,
+   "error": "not downloaded",
+   "license_detected": "",
+   "raw_bytes": 1757169,
+   "raw_sha256": "e8183d99af72ed2a6411c7f535706eab4160d679d3692f5071fbe5faa4f8e654",
+   "rejected": {
+    "bad-label": 4,
+    "too-many-labels": 5
+   },
+   "samples": {
+    "bad-label": [
+     "btttt_brrrraoooooaddbbbadb0001.godaddysites.com",
+     "meta_mack-logi.godaddysites.com",
+     "outlooksotf_cln_mailcln.filesusr.com",
+     "updateid_bc01a0d48d.itsaol.com"
+    ],
+    "too-many-labels": [
+     "eneco.nl.groene.stroom.gasenergie.21631-4118.s2.webspace.re",
+     "exodus.com.merge.earkan.sch.id.arkan.sch.id",
+     "mail01.moncompte.f.appsuite.default.folder.ugc.umc.edu.np",
+     "www.attws-ssl.group.iicxp.lab.cpsess-frontend.sman2cijaku.sch.id"
+    ]
+   },
+   "status": "cached",
+   "title": "",
+   "upstream_version": ""
+  },
+  "quidsup-notrack": {
+   "accepted": 15239,
+   "error": "not downloaded",
+   "license_detected": "GNU",
+   "raw_bytes": 618476,
+   "raw_sha256": "d838dd14b077e13dbc70418de7875384e7381cbda29a0c1b5f2450a72c6e73ee",
+   "rejected": {},
+   "samples": {},
+   "status": "cached",
+   "title": "NoTrack Tracker Blocklist",
+   "upstream_version": ""
+  },
+  "quidsup-notrack-malware": {
+   "accepted": 125,
+   "error": "not downloaded",
+   "license_detected": "GNU",
+   "raw_bytes": 4762,
+   "raw_sha256": "de2e33be367b25c0826008e677401c706e2de7c4cc7cf0891b26fb804e0c022f",
+   "rejected": {},
+   "samples": {},
+   "status": "cached",
+   "title": "NoTrack Malware Blocklist",
+   "upstream_version": ""
+  },
+  "rpilist-easylist": {
+   "accepted": 172733,
+   "error": "not downloaded",
+   "license_detected": "",
+   "raw_bytes": 3734350,
+   "raw_sha256": "702f4729000f04988c4b0f53f787b690b887e33e07e9361b5e1473498b8c61a3",
+   "rejected": {
+    "bad-label": 1,
+    "bad-tld": 2,
+    "blocked-suffix": 1,
+    "too-many-labels": 140
+   },
+   "samples": {
+    "bad-label": [
+     "||fb_servpub-a.akamaihd.net^"
+    ],
+    "bad-tld": [
+     "||mm.n3w1d0ma1n^",
+     "||rrf.fat1domain1^"
+    ],
+    "blocked-suffix": [
+     "||youtube.local^"
+    ],
+    "too-many-labels": [
+     "||acc.net-ext.zooplusmail-aws.net.prod.raw.net.zooplus.es^",
+     "||acc.net.zooplusmail-aws.net.ghcpi.zoossl.net.zooplus.es^",
+     "||accountingmail.page.net.resetdata-sandbox.net.net-testingnet.zoossl.net.zooplus.es^",
+     "||adm.jenkins.metrics.development.mgmt.cloudfront.docker.2lab.net.zooplus.de^"
+    ]
+   },
+   "status": "cached",
+   "title": "",
+   "upstream_version": ""
+  },
+  "rpilist-malware": {
+   "accepted": 624017,
+   "error": "not downloaded",
+   "license_detected": "",
+   "raw_bytes": 14949646,
+   "raw_sha256": "8e3eaa7f51a58f64ce092af1d12c14b0a71abd466ad8e2c9dbb030da8437c116",
+   "rejected": {
+    "hyphen-run": 10,
+    "too-many-labels": 60
+   },
+   "samples": {
+    "hyphen-run": [
+     "||a101--------girisler.cyou^",
+     "||a101--------girisler.xyz^",
+     "||bakiye-----hgs-----ptt------com.net^",
+     "||budd4--7-----------register2025.blogspot.com^"
+    ],
+    "too-many-labels": [
+     "||31.128.173.853.zhzy999.net31.128.173.853.zhzy999.net^",
+     "||3www.git.git.git.git.test.cpcalendars.megabahisi.com^",
+     "||42.157.79.83.dynamic.wline.res.cust.swisscom.ch^",
+     "||6.0.0.37050.2863923067.3163759174.0.0.b48b4b4c879e7211d6a13e26a8a914aaf6c218653840e81d9f.hfuidhfd.jp^"
+    ]
+   },
+   "status": "cached",
+   "title": "",
+   "upstream_version": ""
+  },
+  "scam-blocklist": {
+   "accepted": 468511,
+   "error": "not downloaded",
+   "license_detected": "d",
+   "raw_bytes": 9947809,
+   "raw_sha256": "7fdb5d9dc3d221d1eedfbeb6d4b10bef12cd8f57db8d33696f36e0fd5cd9ad48",
+   "rejected": {
+    "hyphen-run": 135,
+    "too-many-labels": 83
+   },
+   "samples": {
+    "hyphen-run": [
+     "docs--wallet------ledger.webflow.io",
+     "en-coinbasepro------cdn.gitbook.io",
+     "mail2myeast-------pro-messages-communicationscenter.weebly.com",
+     "reag----------anwlsupportteamadmsection001wardsectionsupp.weebly.com"
+    ],
+    "too-many-labels": [
+     "1www.mwwwwwwgavesxnk.hippo.137.184.242.87.sslip.io",
+     "2jenkins.sfelujzi.hippo.137.184.242.87.sslip.io",
+     "5ab.wwwwwwwwwwwwpgcnidxl.hippo.137.184.242.87.sslip.io",
+     "5wwwwww.wwweinyooaudzjsq.hippo.137.184.242.87.sslip.io"
+    ]
+   },
+   "status": "cached",
+   "title": "Jarelllama's Scam Blocklist",
+   "upstream_version": ""
+  },
+  "snafu": {
+   "accepted": 75047,
+   "error": "not downloaded",
+   "license_detected": "WTFPL",
+   "raw_bytes": 2071079,
+   "raw_sha256": "e8b762d6afc90385f91114596db0360ff661e6eb066362c74a17ef53a7d29e10",
+   "rejected": {
+    "bad-label": 23,
+    "too-many-labels": 4
+   },
+   "samples": {
+    "bad-label": [
+     "crm_cdk.saas.appdynamics.com",
+     "imaginea_ci.a3cloud.net",
+     "i_mobistar.tealiumiq.com",
+     "gde_default.hit.gemius.pl"
+    ],
+    "too-many-labels": [
+     "stags.bluekai.comtacoda.at.atwola.comtags.bluekai.comtracker.marinsm.com",
+     "p24-buy.itunes.apple.complay.itunes.apple.comrtb.vindicosuite.com",
+     "randy-phishingbotnet-maugans-bulletproof-ipv6-cloud-cc-servers.myhost.xyz.itshidden.com.mypage.xyz.leadin.com",
+     "7.tlu.dl.delivery.mp.microsoft.comengine.adzerk.net"
+    ]
+   },
+   "status": "cached",
+   "title": "## A general ad & tracking domain blocklist for pi-hole. (https://pi-hole.net/)              ###",
+   "upstream_version": ""
+  },
+  "someonewhocares": {
+   "accepted": 13081,
+   "error": "not downloaded",
+   "license_detected": "",
+   "raw_bytes": 367528,
+   "raw_sha256": "066fcfa30c2b59963c3789965f02b61fa7f0b7a5ee20049d525d83020b92837e",
+   "rejected": {
+    "blocked-name": 11,
+    "single-label": 3
+   },
+   "samples": {
+    "blocked-name": [
+     "127.0.0.1\tlocalhost",
+     "127.0.0.1\tlocalhost.localdomain",
+     "255.255.255.255\tbroadcasthost",
+     "::1\t\tlocalhost"
+    ],
+    "single-label": [
+     "0.0.0.0 www.bar.ry2002.02-ry014.snpr.hotmx.hair.zaam.net # In spam",
+     "0.0.0.0 dig",
+     "0.0.0.0 wpad # For reference: https://www.youtube.com/watch?v=uwsykPWa5Lc"
+    ]
+   },
+   "status": "cached",
+   "title": "",
+   "upstream_version": ""
+  },
+  "spam404": {
+   "accepted": 8140,
+   "error": "not downloaded",
+   "license_detected": ".com",
+   "raw_bytes": 146593,
+   "raw_sha256": "99c65c4a7bcbab03cb82b1068d39a3e43dd65b51ce7b089929261a818b520960",
+   "rejected": {},
+   "samples": {},
+   "status": "cached",
+   "title": "",
+   "upstream_version": ""
+  },
+  "stalkerware-indicators": {
+   "accepted": 925,
+   "error": "not downloaded",
+   "license_detected": "",
+   "raw_bytes": 19585,
+   "raw_sha256": "6e8928e0dc37b9fcf9c16ceda3c55d717dfc816b1d491becbf58cb71a5b734c8",
+   "rejected": {},
+   "samples": {},
+   "status": "cached",
+   "title": "",
+   "upstream_version": ""
+  },
+  "stevenblack-fakenews": {
+   "accepted": 2193,
+   "error": "not downloaded",
+   "license_detected": "",
+   "raw_bytes": 58877,
+   "raw_sha256": "4a3c886c81028a324d5801390efb17617845a6d787d08cc9ae8ce3f033250bf0",
+   "rejected": {},
+   "samples": {},
+   "status": "cached",
+   "title": "",
+   "upstream_version": ""
+  },
+  "stevenblack-hosts": {
+   "accepted": 72230,
+   "error": "not downloaded",
+   "license_detected": "",
+   "raw_bytes": 2220527,
+   "raw_sha256": "c90ebedf5453c551b8e5c3f164640db5defb79228fd7ba3d7b58b5f7804a421a",
+   "rejected": {
+    "bad-label": 1,
+    "bad-tld": 1,
+    "blocked-name": 13,
+    "ip-alias-line": 1,
+    "single-label": 1
+   },
+   "samples": {
+    "bad-label": [
+     "0.0.0.0 philadelphia_cbslocal.us.intellitxt.com"
+    ],
+    "bad-tld": [
+     "0.0.0.0 pgl.example0101"
+    ],
+    "blocked-name": [
+     "127.0.0.1 localhost",
+     "127.0.0.1 localhost.localdomain",
+     "127.0.0.1 local",
+     "255.255.255.255 broadcasthost"
+    ],
+    "ip-alias-line": [
+     "0.0.0.0 0.0.0.0"
+    ],
+    "single-label": [
+     "0.0.0.0 www.bar.ry2002.02-ry014.snpr.hotmx.hair.zaam.net # In spam"
+    ]
+   },
+   "status": "cached",
+   "title": "StevenBlack/hosts",
+   "upstream_version": ""
+  },
+  "threatfox": {
+   "accepted": 41097,
+   "error": "not downloaded",
+   "license_detected": "",
+   "raw_bytes": 1411997,
+   "raw_sha256": "d37eb711e22791acf61fb6a84148621d20b3c2b709c1375a03ae5897b5b00d41",
+   "rejected": {
+    "adblock-rule": 4,
+    "bad-tld": 1,
+    "blocked-suffix": 4,
+    "idna-failed": 1,
+    "single-label": 1
+   },
+   "samples": {
+    "adblock-rule": [
+     "127.0.0.1\tpb3089ep3wawzichhzf9zq==",
+     "127.0.0.1\tfrbvnnnfyr6xr622pbe0nq==",
+     "127.0.0.1\tbimqut238p64emywajhvaw==",
+     "127.0.0.1\taxr7hs51.$unp2idvalk.digital"
+    ],
+    "bad-tld": [
+     "127.0.0.1\tcheck1.judicica1n"
+    ],
+    "blocked-suffix": [
+     "127.0.0.1\texample-probe-does-not-exist-12345.invalid",
+     "127.0.0.1\tdummy-tf-test-dummy-2t4navcd.example",
+     "127.0.0.1\tdummy-tf-test-dummy-rfnsp2ni.example",
+     "127.0.0.1\ttest-dummy-validation.invalid"
+    ],
+    "idna-failed": [
+     "127.0.0.1\t\u05ddv"
+    ],
+    "single-label": [
+     "127.0.0.1\t0x0321c73150543faa9d016c9c46abf293eb6839e4"
+    ]
+   },
+   "status": "cached",
+   "title": "",
+   "upstream_version": ""
+  },
+  "tr-phishinglist": {
+   "accepted": 825828,
+   "error": "not downloaded",
+   "license_detected": "",
+   "raw_bytes": 17650976,
+   "raw_sha256": "0da312aafb7ae5c0ab3d446731927c94dd1ecd9faf1b77c48c4a16715a9f8cd5",
+   "rejected": {
+    "bad-label": 4,
+    "bad-tld": 83,
+    "blocked-suffix": 1,
+    "hyphen-run": 47,
+    "single-label": 35,
+    "too-many-labels": 177
+   },
+   "samples": {
+    "bad-label": [
+     "net-b-k-.com",
+     "subat-kampanyas.-den.zbank-basvuru2020.com",
+     "www.zgarniij_vouchher.skroc.pl",
+     "zgarniij_vouchher.skroc.pl"
+    ],
+    "bad-tld": [
+     "10100m.com1",
+     "102.130.124.5",
+     "104.248.94.172",
+     "142.93.134.136"
+    ],
+    "blocked-suffix": [
+     "000invaliddomain.local"
+    ],
+    "hyphen-run": [
+     "0--0----------------------------------------------------------0.ru",
+     "0--0---------------------------------------------------axelname.ru",
+     "0--0--------dra-dot-ru-premium-domains-and-services-----------0.ru",
+     "0-0-----------------------------------------------------------0.com"
+    ],
+    "single-label": [
+     "123adsfsa14",
+     "974gfbjhb23hbfkyfaby",
+     "alsgus132",
+     "bestbuycom"
+    ],
+    "too-many-labels": [
+     "00.0.gmail.com.gmail.8.3.gmail.35.cad.creou.dev",
+     "1.a.z.1.gmail.i.0.83.y.9.aiot.ptcu.dev",
+     "7.1.gmail.com.gmail.com.5.01.cad.edu.gr",
+     "account.microsoft.login.secure.verification.online.001.027.039.sindibae.cl"
+    ]
+   },
+   "status": "cached",
+   "title": "",
+   "upstream_version": ""
+  },
+  "urlhaus": {
+   "accepted": 384,
+   "error": "not downloaded",
+   "license_detected": "",
+   "raw_bytes": 11488,
+   "raw_sha256": "8253f0e1a83c72f3165e819db22fd7691d14c37516ff4dafc159c14eb9ab6f4d",
+   "rejected": {},
+   "samples": {},
+   "status": "cached",
+   "title": "",
+   "upstream_version": ""
+  },
+  "windows-spy-blocker": {
+   "accepted": 347,
+   "error": "not downloaded",
+   "license_detected": "MIT",
+   "raw_bytes": 12383,
+   "raw_sha256": "709c00d24f5a50dab46ce18d8b1cd175db4593dc7f65623ed89070075a85a3a0",
+   "rejected": {},
+   "samples": {},
+   "status": "cached",
+   "title": "",
+   "upstream_version": ""
+  },
+  "yhosts": {
+   "accepted": 6419,
+   "error": "not downloaded",
+   "license_detected": "s.adobe.com",
+   "raw_bytes": 163921,
+   "raw_sha256": "0cdfaf52e9d303a941901e9246c930d1c073238beda42b61c928957d45e78280",
+   "rejected": {
+    "bad-label": 1,
+    "blocked-name": 4,
+    "single-label": 1
+   },
+   "samples": {
+    "bad-label": [
+     "0.0.0.0 09_19.supfree.net"
+    ],
+    "blocked-name": [
+     "255.255.255.255\tbroadcasthost",
+     "::1             localhost",
+     "0.0.0.0 localhost",
+     "::1             ip6-localhost"
+    ],
+    "single-label": [
+     "0.0.0.0 XiaoQiang"
+    ]
+   },
+   "status": "cached",
+   "title": "",
+   "upstream_version": ""
+  },
+  "yoyo-adservers": {
+   "accepted": 3550,
+   "error": "not downloaded",
+   "license_detected": "",
+   "raw_bytes": 95040,
+   "raw_sha256": "99d176e50f78e15ce052daad50bd8eb8da3b009981037afb5012fd3a9130fbb0",
+   "rejected": {
+    "bad-tld": 1
+   },
+   "samples": {
+    "bad-tld": [
+     "127.0.0.1 pgl.example0101"
+    ]
+   },
+   "status": "cached",
+   "title": "",
+   "upstream_version": ""
+  }
+ }
+}

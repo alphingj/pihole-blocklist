@@ -1,0 +1,64 @@
+name: build
+
+# Rebuild the lists weekly and publish only when the content actually changed.
+# Cron is deliberately off the hour: every repo with a "0 4 * * *" job lands on
+# GitHub's runners at the same second, which is how builds get queued for an hour.
+on:
+  schedule:
+    - cron: "37 4 * * 1"
+  workflow_dispatch:
+    inputs:
+      refresh:
+        description: Re-download every source even if cached
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: build
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Build
+        run: |
+          python3 scripts/build.py ${{ inputs.refresh && '--refresh' || '' }}
+
+      - name: Record build stats
+        run: |
+          {
+            echo "### $(date -u +%Y-%m-%d) build"
+            echo
+            echo '| List | Domains | Size |'
+            echo '| --- | ---: | ---: |'
+            for f in allinone adult core junk sensitive everything; do
+              printf '| `%s.txt` | %s | %s |\n' "$f" \
+                "$(wc -l < dist/$f.txt | tr -d " ")" \
+                "$(du -h dist/$f.txt | cut -f1)"
+            done
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Commit updated stats
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/ SOURCES.md sources.txt
+          git diff --staged --quiet || git commit -m "chore: refresh stats from automated build"
+          git push || echo "nothing to push"
+
+      - name: Publish
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: ./scripts/publish.sh
