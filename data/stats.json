@@ -1,12 +1,12 @@
 {
- "adult_reference_entries": 5496225,
- "generated": "2026-10-03T05:37:24Z",
+ "adult_reference_entries": 5507209,
+ "generated": "2026-10-12T12:23:41Z",
  "lists": {
   "adult": {
-   "bytes": 183841413,
-   "entries": 5496225,
+   "bytes": 184083495,
+   "entries": 5507209,
    "scrubbed": false,
-   "sha256": "0d103caf2ad917d897c91e2b1c5ebce3b1559f79a2e2a19893ae9b763f93a2a7",
+   "sha256": "7ee89c986a460a23cd99ecf1050582026e8d8d93ca09229cf2a66ec2348e138b",
    "sources": [
     "hagezi-gambling",
     "chadmayfield-porn",
@@ -15,10 +15,10 @@
    ]
   },
   "allinone": {
-   "bytes": 145725589,
-   "entries": 5251316,
+   "bytes": 132894677,
+   "entries": 4756457,
    "scrubbed": true,
-   "sha256": "b82effb570f64e35dcf2912842597fc3636e3d9884db1f9d4f8350a2c5b72881",
+   "sha256": "4b582f12c82751784c9a23346a5940a595e284733f32690d6d52c35c52b40e06",
    "sources": [
     "adaway",
     "mahakala",
@@ -89,23 +89,23 @@
   },
   "allinone.variants": {
    "adblock": {
-    "bytes": 119469009,
-    "sha256": "584e392ed437f266c47278a19ffdfd1e87e082725230c7377fd557363616a637"
+    "bytes": 109112392,
+    "sha256": "a4d3549174d46ca483417ba1d5b7c7727f606e1b874a3f45c3e1853b95f031ec"
    },
    "domains": {
-    "bytes": 103715061,
-    "sha256": "b828f993234ef62e990cafb9e685fa33a1d21b652e1f732deb06ec7693a7dd03"
+    "bytes": 94843021,
+    "sha256": "8757fa02ce531392c4a1bcc8a0e594728dd5231bc790938b099f14ee0e341b12"
    },
    "gz": {
-    "bytes": 34469873,
-    "sha256": "161f53051fb0dcea945eb8d130730ff26ccfd4f8dc2bdc4722722e35775a7922"
+    "bytes": 31891241,
+    "sha256": "862c8a32cf80172ac465f8f18bd17452936957fcc678375042894b5a4b33a3cc"
    }
   },
   "core": {
-   "bytes": 132023101,
-   "entries": 4776476,
+   "bytes": 119147291,
+   "entries": 4279953,
    "scrubbed": true,
-   "sha256": "3f591a15f453d7d8d6253665fb94d1e35f00d4c97ab2b8325ed4f871182ba540",
+   "sha256": "9e516d59e69e72f7de6f7b1e5fcf35ee39663d2ee4a7c2dfe916f9105e05b78e",
    "sources": [
     "adaway",
     "mahakala",
@@ -156,10 +156,10 @@
    ]
   },
   "everything": {
-   "bytes": 329849493,
-   "entries": 10757754,
+   "bytes": 317265797,
+   "entries": 10273816,
    "scrubbed": false,
-   "sha256": "86418f030de9d5c01352442bc1ebb81d6a6e85a0b81f69e34e04a4abbdef2c1c",
+   "sha256": "e4f17305595c120fa4c81383827cb4add2badfcdc94931de350bdd3f8ee97723",
    "sources": [
     "adaway",
     "mahakala",
@@ -233,10 +233,10 @@
    ]
   },
   "junk": {
-   "bytes": 84723318,
-   "entries": 3190234,
+   "bytes": 71134174,
+   "entries": 2664435,
    "scrubbed": true,
-   "sha256": "306fab16f3cace947d46c515289af883b35d17f5a1ea1e4532400d948d918b30",
+   "sha256": "f213bdfcd1b70c7a08a7c8ab08bba39d629a96fb66554cfba014d36347113f03",
    "sources": [
     "oisd-big",
     "hagezi-pro-plus",
@@ -263,10 +263,10 @@
    ]
   },
   "sensitive": {
-   "bytes": 194978147,
-   "entries": 5894547,
+   "bytes": 194020993,
+   "entries": 5866273,
    "scrubbed": false,
-   "sha256": "50349923568bca2b94af782891547bad4831267685d7e0b62392e53f64613e13",
+   "sha256": "8ac9f9c79fb3c5e77cc9e91c764de5e64008a99f1e1e13d722cffa3b057644e0",
    "sources": [
     "oisd-big",
     "hagezi-gambling",
@@ -282,7 +282,8 @@
  "sources": {
   "adaway": {
    "accepted": 6540,
-   "error": "not downloaded",
+   "bytes": 243454,
+   "id": "adaway",
    "license_detected": ":",
    "raw_bytes": 243454,
    "raw_sha256": "8c925c37a5eaa5e1c582c76e12301797861addee5ad0fa0e6e46c9dd0136fe55",
@@ -295,16 +296,18 @@
      "::1  localhost"
     ]
    },
-   "status": "cached",
+   "seconds": 0.4,
+   "status": "fetched",
    "title": "",
    "upstream_version": ""
   },
   "adguard-filter-50": {
-   "accepted": 2837,
-   "error": "not downloaded",
+   "accepted": 2843,
+   "bytes": 63157,
+   "id": "adguard-filter-50",
    "license_detected": "",
-   "raw_bytes": 63022,
-   "raw_sha256": "3bf5e6f0de386881d466f451bf473c7dc981d49c86132519b613433a3a3d4c6c",
+   "raw_bytes": 63157,
+   "raw_sha256": "f98e2a2b8715aed722392567dc969911740c5cb55f248570c15cfaaad13283e0",
    "rejected": {
     "adblock-rule": 16,
     "bad-label": 10,
@@ -337,13 +340,15 @@
      "||vnote-*.myqcloud.com^"
     ]
    },
-   "status": "cached",
+   "seconds": 0.2,
+   "status": "fetched",
    "title": "uBlock\u2080 filters \u2013 Badware risks",
-   "upstream_version": "1.0.22.96"
+   "upstream_version": "1.0.23.2"
   },
   "adguard-filter-7": {
    "accepted": 144,
-   "error": "not downloaded",
+   "bytes": 4746,
+   "id": "adguard-filter-7",
    "license_detected": "",
    "raw_bytes": 4746,
    "raw_sha256": "09ed15d56d8d5eea9e96631a7c65c2521ad2ae484e280d56610b21d0e0364d5a",
@@ -371,13 +376,15 @@
      "||fls-*.amazon.com^"
     ]
    },
-   "status": "cached",
+   "seconds": 0.2,
+   "status": "fetched",
    "title": "Perflyst and Dandelion Sprout's Smart-TV Blocklist",
    "upstream_version": "1.0.14.55"
   },
   "anudeep-adservers": {
    "accepted": 42341,
-   "error": "not downloaded",
+   "bytes": 1354227,
+   "id": "anudeep-adservers",
    "license_detected": "E",
    "raw_bytes": 1354227,
    "raw_sha256": "4cbe4ca57d726b9964f5b782cc7c211243cd7f7fa4b5947af3a2b3ec3560477e",
@@ -397,13 +404,15 @@
      "0.0.0.0 synchronyfinancial.d1.sc.omtrdc.netsynchronyfinancial.d1.sc.omtrdc.net"
     ]
    },
-   "status": "cached",
+   "seconds": 0.1,
+   "status": "fetched",
    "title": "Anudeep's Blacklist",
    "upstream_version": ""
   },
   "anudeep-facebook": {
    "accepted": 3994,
-   "error": "not downloaded",
+   "bytes": 160679,
+   "id": "anudeep-facebook",
    "license_detected": "E",
    "raw_bytes": 160679,
    "raw_sha256": "c8176f2e6c5e2f3e2e15e6441517d4619eaddbc5d5e1dcd17864668ee7a3cff2",
@@ -419,41 +428,47 @@
      "0.0.0.0 0.facebook.com.cgi-bin.nph-roxy.cgi.0.http.0.facebook.com"
     ]
    },
-   "status": "cached",
+   "seconds": 0.0,
+   "status": "fetched",
    "title": "Anudeep's Facebook Blacklist",
    "upstream_version": ""
   },
   "barbblock": {},
   "blocklistproject-crypto": {
    "accepted": 1274,
-   "error": "not downloaded",
+   "bytes": 27787,
+   "id": "blocklistproject-crypto",
    "license_detected": "",
    "raw_bytes": 27787,
    "raw_sha256": "5959265e5f86346c9561d3d8b599922584eee7afcdcf208465e4380bf6507b17",
    "rejected": {},
    "samples": {},
-   "status": "cached",
+   "seconds": 0.2,
+   "status": "fetched",
    "title": "",
    "upstream_version": ""
   },
   "chadmayfield-porn": {
    "accepted": 11868,
-   "error": "not downloaded",
+   "bytes": 206038,
+   "id": "chadmayfield-porn",
    "license_detected": "",
    "raw_bytes": 206038,
    "raw_sha256": "b8f84cf9119be05364e81b4debe3084cf02d7e6ed3443397a448bc609562ec10",
    "rejected": {},
    "samples": {},
-   "status": "cached",
+   "seconds": 0.1,
+   "status": "fetched",
    "title": "",
    "upstream_version": ""
   },
   "cyberhost-malware": {
-   "accepted": 91562,
-   "error": "not downloaded",
+   "accepted": 95580,
+   "bytes": 7022061,
+   "id": "cyberhost-malware",
    "license_detected": "",
-   "raw_bytes": 6567545,
-   "raw_sha256": "ee942769da5fa086b35d5d00b7dcbad1b8a82b341c6c58e1cabc4c54b03d30ce",
+   "raw_bytes": 7022061,
+   "raw_sha256": "2d3436d6f37d20fb6c88311a074e1b74c3b5de0daa3f3f9ab9455ea7b5c5adea",
    "rejected": {
     "blocked-suffix": 10,
     "too-many-labels": 24
@@ -472,18 +487,20 @@
      "www.com.cgi.bin.webscr.cmd.login.submit.dispatch.update.account.paypal.confirm.account.m209.bsturismo.com.br"
     ]
    },
-   "status": "cached",
+   "seconds": 0.3,
+   "status": "fetched",
    "title": "",
    "upstream_version": ""
   },
   "dandelion-antimalware": {
-   "accepted": 11761,
-   "error": "not downloaded",
+   "accepted": 11768,
+   "bytes": 398188,
+   "id": "dandelion-antimalware",
    "license_detected": "",
-   "raw_bytes": 398218,
-   "raw_sha256": "dc29b4c55b7b3184d637b799037b5a6f440f215b3bf03b22b38a1cd83f4ff7f5",
+   "raw_bytes": 398188,
+   "raw_sha256": "82cfa9eafbe191840ca027384a097610623436c168a6b4216a460753fb4f942a",
    "rejected": {
-    "ip-alias-line": 595,
+    "ip-alias-line": 594,
     "single-label": 5
    },
    "samples": {
@@ -500,14 +517,16 @@
      "://[2600:3c06::f03c:95ff:fed9:ce5e]"
     ]
    },
-   "status": "cached",
+   "seconds": 0.1,
+   "status": "fetched",
    "title": "\ud83d\udc8a Dandelion Sprout's Anti-Malware List (\u00abhosts\u00bb file version)",
    "upstream_version": ""
   },
   "digitalside": {},
   "disconnect-ad": {
    "accepted": 2697,
-   "error": "not downloaded",
+   "bytes": 43604,
+   "id": "disconnect-ad",
    "license_detected": "GPLv3",
    "raw_bytes": 43604,
    "raw_sha256": "ac0360be31da0ddac23a407af6216008d656390d3bbdefac48db292aeec7216d",
@@ -521,13 +540,15 @@
      "seeq.com.invalid"
     ]
    },
-   "status": "cached",
+   "seconds": 0.2,
+   "status": "fetched",
    "title": "",
    "upstream_version": ""
   },
   "disconnect-malvertising": {
    "accepted": 2732,
-   "error": "not downloaded",
+   "bytes": 44155,
+   "id": "disconnect-malvertising",
    "license_detected": "GPLv3",
    "raw_bytes": 44155,
    "raw_sha256": "769a4de32c69d5efd980054b2bac3945e2afa3cc36b874810da3c7fe8c744bba",
@@ -545,64 +566,74 @@
      "Malvertising list by Disconnect"
     ]
    },
-   "status": "cached",
+   "seconds": 0.2,
+   "status": "fetched",
    "title": "",
    "upstream_version": ""
   },
   "fademind-2o7net": {
    "accepted": 2030,
-   "error": "not downloaded",
+   "bytes": 68159,
+   "id": "fademind-2o7net",
    "license_detected": "",
    "raw_bytes": 68159,
    "raw_sha256": "5d9353a1294c0c12fb6caa7c9178224ae601f59a159ea5e4677da6b36208c876",
    "rejected": {},
    "samples": {},
-   "status": "cached",
+   "seconds": 0.1,
+   "status": "fetched",
    "title": "",
    "upstream_version": ""
   },
   "fademind-risk": {
    "accepted": 2189,
-   "error": "not downloaded",
+   "bytes": 58157,
+   "id": "fademind-risk",
    "license_detected": "",
    "raw_bytes": 58157,
    "raw_sha256": "baedee79b7a3b9e1825080f4daf42a7d9dc37eda03a4381b332b7ef807129b0e",
    "rejected": {},
    "samples": {},
-   "status": "cached",
+   "seconds": 0.0,
+   "status": "fetched",
    "title": "",
    "upstream_version": ""
   },
   "fademind-spam": {
    "accepted": 57,
-   "error": "not downloaded",
+   "bytes": 1628,
+   "id": "fademind-spam",
    "license_detected": "",
    "raw_bytes": 1628,
    "raw_sha256": "5e925892954443b0b0dcbfc26926d2f48e86034935887aad75a9aaaa0a8eeccc",
    "rejected": {},
    "samples": {},
-   "status": "cached",
+   "seconds": 0.1,
+   "status": "fetched",
    "title": "",
    "upstream_version": ""
   },
   "fademind-unchecky-ads": {
    "accepted": 9,
-   "error": "not downloaded",
+   "bytes": 276,
+   "id": "fademind-unchecky-ads",
    "license_detected": "",
    "raw_bytes": 276,
    "raw_sha256": "c60b7ee16362fa5848bd257a14854b240e793735a2310669f2f889f391a00d70",
    "rejected": {},
    "samples": {},
-   "status": "cached",
+   "seconds": 0.0,
+   "status": "fetched",
    "title": "",
    "upstream_version": ""
   },
   "firebog-adguard-dns": {
-   "accepted": 176581,
-   "error": "not downloaded",
+   "accepted": 178721,
+   "bytes": 3742447,
+   "id": "firebog-adguard-dns",
    "license_detected": "",
-   "raw_bytes": 3701579,
-   "raw_sha256": "8215b97f2ed8b3d033caf17d7413b7d374953baa6c12547967626b473961a0a3",
+   "raw_bytes": 3742447,
+   "raw_sha256": "218de9e1ee689754eebe1e3f2db76e63358349bb13b332d745811977a4425f39",
    "rejected": {
     "too-many-labels": 1
    },
@@ -611,40 +642,46 @@
      "ei-api.gwy.ei-elastic-test-amq-1a-006.easyjet.com.edgekey.net.easyjet.com"
     ]
    },
-   "status": "cached",
+   "seconds": 0.4,
+   "status": "fetched",
    "title": "",
    "upstream_version": ""
   },
   "firebog-admiral": {
-   "accepted": 1629,
-   "error": "not downloaded",
+   "accepted": 1631,
+   "bytes": 28469,
+   "id": "firebog-admiral",
    "license_detected": "",
-   "raw_bytes": 28438,
-   "raw_sha256": "999c8c4b23b1f4c2c55f7579372325f0cc34c5158b459849319eb42a7145966f",
+   "raw_bytes": 28469,
+   "raw_sha256": "3bebc2e65b72dc16a3dd88a627d7f60206167683f5dc80338d39a5dc3ebbc408",
    "rejected": {},
    "samples": {},
-   "status": "cached",
+   "seconds": 0.1,
+   "status": "fetched",
    "title": "",
    "upstream_version": ""
   },
   "firebog-easylist": {
-   "accepted": 44718,
-   "error": "not downloaded",
+   "accepted": 46762,
+   "bytes": 902137,
+   "id": "firebog-easylist",
    "license_detected": "",
-   "raw_bytes": 862756,
-   "raw_sha256": "0985bcad9fff454a9cc2bcd36b399fc2305fc04c6d74b312c26de65010ae8bd4",
+   "raw_bytes": 902137,
+   "raw_sha256": "a4da687a0446b54b32a62cac31e8040211bbacd6f52438480a721d8157c566da",
    "rejected": {},
    "samples": {},
-   "status": "cached",
+   "seconds": 0.2,
+   "status": "fetched",
    "title": "",
    "upstream_version": ""
   },
   "firebog-easyprivacy": {
-   "accepted": 43157,
-   "error": "not downloaded",
+   "accepted": 43183,
+   "bytes": 945233,
+   "id": "firebog-easyprivacy",
    "license_detected": "",
-   "raw_bytes": 944786,
-   "raw_sha256": "050eb5f1542f7e273b8aad4b43b852016a156eac45fbacedea42d708cfb80edd",
+   "raw_bytes": 945233,
+   "raw_sha256": "8823300a75e6ab7f2b1722ccf7fdbf0f1a72460af0b0f140eccf81042dff9553",
    "rejected": {
     "bad-label": 1
    },
@@ -653,25 +690,29 @@
      "fb_servpub-a.akamaihd.net"
     ]
    },
-   "status": "cached",
+   "seconds": 0.1,
+   "status": "fetched",
    "title": "",
    "upstream_version": ""
   },
   "firebog-kowabit": {
    "accepted": 7680,
-   "error": "not downloaded",
+   "bytes": 116849,
+   "id": "firebog-kowabit",
    "license_detected": "",
    "raw_bytes": 116849,
    "raw_sha256": "49fed67826eda633ed87d77708e2c0d118319142887d986217b68c6df867f58a",
    "rejected": {},
    "samples": {},
-   "status": "cached",
+   "seconds": 0.1,
+   "status": "fetched",
    "title": "",
    "upstream_version": ""
   },
   "firebog-neohosts": {
    "accepted": 2411,
-   "error": "not downloaded",
+   "bytes": 44305,
+   "id": "firebog-neohosts",
    "license_detected": "",
    "raw_bytes": 44305,
    "raw_sha256": "252d8771215715e8fbc85d0cdb782d7a48af7b07c9a37636b0ecf29ca3faef4a",
@@ -683,28 +724,32 @@
      "localhost"
     ]
    },
-   "status": "cached",
+   "seconds": 0.1,
+   "status": "fetched",
    "title": "",
    "upstream_version": ""
   },
   "firebog-prigent-ads": {
    "accepted": 4269,
-   "error": "not downloaded",
+   "bytes": 70554,
+   "id": "firebog-prigent-ads",
    "license_detected": "",
    "raw_bytes": 70554,
-   "raw_sha256": "6126c8ae08351c0feee0aeb47df3d8bd8ca38cd0ae467e23911b0aeea71aa4ff",
+   "raw_sha256": "1c8b1cca58c3083b264d36664feed93594d7a838ffb65382559cd9310c6ce512",
    "rejected": {},
    "samples": {},
-   "status": "cached",
+   "seconds": 0.1,
+   "status": "fetched",
    "title": "",
    "upstream_version": ""
   },
   "firebog-prigent-adult": {
    "accepted": 4590144,
-   "error": "not downloaded",
+   "bytes": 124426915,
+   "id": "firebog-prigent-adult",
    "license_detected": "",
    "raw_bytes": 124426915,
-   "raw_sha256": "5684057f5d05e8ee830c77438c8d550e9a37dd17fd66b4c75e4157d5d760644f",
+   "raw_sha256": "f5b50d7fc496886f7c06d8eb93be9e3d5764e8ae3812f331198ebd9378737ffa",
    "rejected": {
     "bad-label": 1711,
     "hyphen-run": 34,
@@ -737,31 +782,35 @@
      "190.195.static.wline.lns.sme.cust.swisscom-ipv6.ch"
     ]
    },
-   "status": "cached",
+   "seconds": 0.8,
+   "status": "fetched",
    "title": "",
    "upstream_version": ""
   },
   "firebog-prigent-crypto": {
    "accepted": 11490,
-   "error": "not downloaded",
+   "bytes": 203972,
+   "id": "firebog-prigent-crypto",
    "license_detected": "",
    "raw_bytes": 203972,
-   "raw_sha256": "397cd9f67a64851be3c67fd5f743580111e60447d4fb14541c57b8e849c0da65",
+   "raw_sha256": "a64e22659a68193b7e213728535445279b2c048d5442cc69ffd4dbd6cde45830",
    "rejected": {},
    "samples": {},
-   "status": "cached",
+   "seconds": 0.1,
+   "status": "fetched",
    "title": "",
    "upstream_version": ""
   },
   "firebog-prigent-malware": {
-   "accepted": 242082,
-   "error": "not downloaded",
+   "accepted": 240446,
+   "bytes": 4627187,
+   "id": "firebog-prigent-malware",
    "license_detected": "",
-   "raw_bytes": 4653499,
-   "raw_sha256": "dd8e905ace3f0efeed867fb32ab9a1134e4e2a04766780941272ec8f2b1a7483",
+   "raw_bytes": 4627187,
+   "raw_sha256": "fb2436381d06f3690e91385cfea75f9914673aa0f2a0c64e457bb841bf197ba0",
    "rejected": {
     "hyphen-run": 6,
-    "too-many-labels": 32
+    "too-many-labels": 30
    },
    "samples": {
     "hyphen-run": [
@@ -777,13 +826,15 @@
      "dreambox.goguardian.ixl.172.93.104.11.backname.io"
     ]
    },
-   "status": "cached",
+   "seconds": 0.2,
+   "status": "fetched",
    "title": "",
    "upstream_version": ""
   },
   "firebog-rpilist-malware": {
    "accepted": 624017,
-   "error": "not downloaded",
+   "bytes": 14949158,
+   "id": "firebog-rpilist-malware",
    "license_detected": "",
    "raw_bytes": 14949158,
    "raw_sha256": "a32b9f7873ff8b761e0b9a4c947f5a48ee288567e981820901cf9e831cffbe8f",
@@ -805,16 +856,18 @@
      "||6.0.0.37050.2863923067.3163759174.0.0.b48b4b4c879e7211d6a13e26a8a914aaf6c218653840e81d9f.hfuidhfd.jp^"
     ]
    },
-   "status": "cached",
+   "seconds": 0.4,
+   "status": "fetched",
    "title": "",
    "upstream_version": ""
   },
   "firebog-rpilist-phishing": {
-   "accepted": 163396,
-   "error": "not downloaded",
+   "accepted": 155962,
+   "bytes": 3649286,
+   "id": "firebog-rpilist-phishing",
    "license_detected": "",
-   "raw_bytes": 3859458,
-   "raw_sha256": "57a1edc1ad00b3b57275360203c3a7673be8712d2117d5fa16a4073846264f6a",
+   "raw_bytes": 3649286,
+   "raw_sha256": "b9dbc51f913a05e54bc1195ca1a300e80f2a32cc8d5f53660b86334524181008",
    "rejected": {
     "too-many-labels": 7
    },
@@ -823,43 +876,49 @@
      "||accounts.google.login.secure.id.google.com.zkey0.com^",
      "||mijn.overheid.nl.berichtenbox.services.kwi1f1q3vdcyxneqfiwfifts5uroqrpavwvhkg1k6monzla9ktv8.cbrmedical.com.b",
      "||mijn.overheid.nl.berichtenbox.services.kwp7z384yrdou64sro4kufv3kaygbdx3jfg6wmufnjfaskeuvoz3.rutrainfo.com.br",
-     "||paypal.com.cgi-bin.webscr-cmd726f91e12e61be224f224df6bd32e6127z.8a7b7064cc4ba375cc0d415be95807ecdeed6f28.487"
+     "||paypal.com-us.cgi-bin-webscr-cmd-login-rundispatch-verification.ppl.service-confirmation.account.webscr-logi"
     ]
    },
-   "status": "cached",
+   "seconds": 0.2,
+   "status": "fetched",
    "title": "",
    "upstream_version": ""
   },
   "firebog-w3kbl": {
    "accepted": 351,
-   "error": "not downloaded",
+   "bytes": 8440,
+   "id": "firebog-w3kbl",
    "license_detected": "s/by/4.0/)",
    "raw_bytes": 8440,
    "raw_sha256": "6fea64b3c3cab7ca79147b7880c61871a89c7a7f802f4df00bceb167dfefac20",
    "rejected": {},
    "samples": {},
-   "status": "cached",
+   "seconds": 0.1,
+   "status": "fetched",
    "title": "",
    "upstream_version": ""
   },
   "frogeye-firstparty-trackers": {
-   "accepted": 14483,
-   "error": "not downloaded",
+   "accepted": 14649,
+   "bytes": 475085,
+   "id": "frogeye-firstparty-trackers",
    "license_detected": "E",
-   "raw_bytes": 469208,
-   "raw_sha256": "27a88daa01e4e3befc68ddf5038872c01607db66b4709a567e4d16b98592e0b0",
+   "raw_bytes": 475085,
+   "raw_sha256": "86ba3b93dae6f1f347dddc0271feaca0413516fea9bdb79a488576e704cdf8e3",
    "rejected": {},
    "samples": {},
-   "status": "cached",
+   "seconds": 0.7,
+   "status": "fetched",
    "title": "",
    "upstream_version": ""
   },
   "frogeye-multiparty-trackers": {
-   "accepted": 18917,
-   "error": "not downloaded",
+   "accepted": 19197,
+   "bytes": 629272,
+   "id": "frogeye-multiparty-trackers",
    "license_detected": "E",
-   "raw_bytes": 619201,
-   "raw_sha256": "b377756eeaeb3abdc5f90862babd6493ac4db617e731d46e96b029156030d8de",
+   "raw_bytes": 629272,
+   "raw_sha256": "f15ddb761c6f1bf534a974dd27af2cd7d5426c2759e0b041aa84642dbda9b780",
    "rejected": {
     "bad-label": 2
    },
@@ -869,52 +928,58 @@
      "0.0.0.0 _dmarc.et.sparklight.com"
     ]
    },
-   "status": "cached",
+   "seconds": 0.8,
+   "status": "fetched",
    "title": "",
    "upstream_version": ""
   },
   "hagezi-gambling": {
-   "accepted": 574780,
-   "error": "not downloaded",
+   "accepted": 583599,
+   "bytes": 11933779,
+   "id": "hagezi-gambling",
    "license_detected": "E",
-   "raw_bytes": 11701708,
-   "raw_sha256": "533b9783edc66b0a5ccbd8fd60149a21360937dc270c8bffdc25ce0dafa68c82",
+   "raw_bytes": 11933779,
+   "raw_sha256": "79207175ae7ce52dcb63a8b1815e65f24e455d7feef94ae69523ff8c720a890e",
    "rejected": {},
    "samples": {},
-   "status": "cached",
+   "seconds": 0.4,
+   "status": "fetched",
    "title": "HaGeZi's Gambling - blocks gambling content!",
    "upstream_version": ""
   },
   "hagezi-hoster": {},
   "hagezi-pro-plus": {
-   "accepted": 248143,
-   "error": "not downloaded",
+   "accepted": 206530,
+   "bytes": 4534005,
+   "id": "hagezi-pro-plus",
    "license_detected": "E",
-   "raw_bytes": 5527961,
-   "raw_sha256": "3a49c1739d268f2b0457a44fa3acb0400ec2d526b0b29c0c8a43645e5446f907",
+   "raw_bytes": 4534005,
+   "raw_sha256": "a26318d9e99f9d25e2d6baf9d66ae45065cd155367e808b57e751c794c6f0e25",
    "rejected": {
-    "too-many-labels": 94
+    "too-many-labels": 66
    },
    "samples": {
     "too-many-labels": [
-     "||telemetry.cell-0.ap-northeast-1.prod.tangerinebox.console.aws.a2z.com^",
-     "||telemetry.cell-0.ap-south-1.prod.tangerinebox.console.aws.a2z.com^",
      "||telemetry.cell-0.ap-southeast-1.prod.tangerinebox.console.aws.a2z.com^",
-     "||telemetry.cell-0.ap-southeast-2.prod.tangerinebox.console.aws.a2z.com^"
+     "||telemetry.cell-0.ap-southeast-2.prod.tangerinebox.console.aws.a2z.com^",
+     "||telemetry.cell-0.eu-central-1.prod.tangerinebox.console.aws.a2z.com^",
+     "||telemetry.cell-0.eu-north-1.prod.tangerinebox.console.aws.a2z.com^"
     ]
    },
-   "status": "cached",
+   "seconds": 0.4,
+   "status": "fetched",
    "title": "HaGeZi's Multi PRO++ - advanced protection (more aggressive)",
    "upstream_version": ""
   },
   "hagezi-spam-tlds": {
    "accepted": 10,
-   "error": "not downloaded",
+   "bytes": 1956,
+   "id": "hagezi-spam-tlds",
    "license_detected": "E",
-   "raw_bytes": 1977,
-   "raw_sha256": "2f4b810fa138fc6abf18d4521c9a821b21798452ef7c10585d9c0458c6998ce9",
+   "raw_bytes": 1956,
+   "raw_sha256": "b8bd22850073c02b7ebef2c1a5197a298425b7c0eb79603d37469f818d7c34d7",
    "rejected": {
-    "single-label": 120
+    "single-label": 118
    },
    "samples": {
     "single-label": [
@@ -924,41 +989,45 @@
      "||autos^"
     ]
    },
-   "status": "cached",
+   "seconds": 0.5,
+   "status": "fetched",
    "title": "HaGeZi's The World's Most Abused TLDs",
    "upstream_version": ""
   },
   "hagezi-tif": {
-   "accepted": 2370165,
-   "error": "not downloaded",
+   "accepted": 1907119,
+   "bytes": 39072639,
+   "id": "hagezi-tif",
    "license_detected": "E",
-   "raw_bytes": 48529917,
-   "raw_sha256": "ecb4192042f4e68d7e65e26302e05981036612fcec297d783aeec0b3399bc957",
+   "raw_bytes": 39072639,
+   "raw_sha256": "8abc51a6d87f03aea2482632e216f671056df317f9e3e6b893d1edeff9078d24",
    "rejected": {
-    "hyphen-run": 17,
-    "too-many-labels": 56
+    "hyphen-run": 16,
+    "too-many-labels": 104
    },
    "samples": {
     "hyphen-run": [
      "||m.facebook.com------------validate---account.disos.xyz^",
+     "||m.facebook.com-----------------secured----account---confirmation.rel360.com^",
      "||07m---------t-------nn-------------5-----------------------7.xyz^",
-     "||blsp--------at.online^",
-     "||cloudss--------1524.top^"
+     "||blsp--------at.online^"
     ],
     "too-many-labels": [
      "||sbermarket.www.nalozhka.ssqkfeq04h8mfmbj.www.sberbank.pochtabank.claid3c54.18bf4d.top^",
      "||sber.nalozhka.sberbank.yandex.sbermegamarket.avito.yandex.nld4sndn.28473244.xyz^",
      "||ozon.pay.ozon.wwwsberbank.spzyaavito.yandex.avito.od3d3.6bc.cc^",
-     "||cdek.sberbank.yandex.sberbank.youla.sbermarket.cdek.nalozhka.apkmod2k.com^"
+     "||iwww.yandex.www.yandex.2543youla.sberbank.nalozhka.gld0l56a5h6u.adflan.com^"
     ]
    },
-   "status": "cached",
+   "seconds": 0.6,
+   "status": "fetched",
    "title": "HaGeZi's Threat Intelligence Feeds - a serious security boost (recommended)",
    "upstream_version": ""
   },
   "hostsfile-mine-nu": {
    "accepted": 113069,
-   "error": "not downloaded",
+   "bytes": 3295447,
+   "id": "hostsfile-mine-nu",
    "license_detected": "d",
    "raw_bytes": 3295447,
    "raw_sha256": "288ea07c63bb12dc4f3862dea1a1edd818b85a31c6e3a09f7acca0939ad268b4",
@@ -983,13 +1052,15 @@
      "0.0.0.0\tr1.gslb.beta.ace.advertising.com.adcom.akadns.net"
     ]
    },
-   "status": "cached",
+   "seconds": 2.0,
+   "status": "fetched",
    "title": "",
    "upstream_version": ""
   },
   "hostsfile-org": {
    "accepted": 25241,
-   "error": "not downloaded",
+   "bytes": 793711,
+   "id": "hostsfile-org",
    "license_detected": "d",
    "raw_bytes": 793711,
    "raw_sha256": "ad8aa838cf9bd29389f350bb1e187e6ec605e45379214ba1082d50631fa40d3d",
@@ -1008,25 +1079,29 @@
      "127.0.0.1\tlocalhost"
     ]
    },
-   "status": "cached",
+   "seconds": 0.3,
+   "status": "fetched",
    "title": "",
    "upstream_version": ""
   },
   "hostsvn": {
-   "accepted": 18438,
-   "error": "not downloaded",
+   "accepted": 18481,
+   "bytes": 525659,
+   "id": "hostsvn",
    "license_detected": "",
-   "raw_bytes": 524257,
-   "raw_sha256": "b2aa61dd6b133dfc9b1f12947c887f66590105f6c7d555822aaa4dcdf7e25892",
+   "raw_bytes": 525659,
+   "raw_sha256": "b9b231c0d26e3633aba0d1d515cfe7bcbc8012cf3fb0ff3c0bce57ea270b20ef",
    "rejected": {},
    "samples": {},
-   "status": "cached",
+   "seconds": 0.1,
+   "status": "fetched",
    "title": "hostsVN",
    "upstream_version": ""
   },
   "joewein": {
    "accepted": 59421,
-   "error": "not downloaded",
+   "bytes": 1080850,
+   "id": "joewein",
    "license_detected": "",
    "raw_bytes": 1080850,
    "raw_sha256": "4d8dbbbb797e8c7146f277fd68f511dd9be281a9ea17099c538277fcfa9b7e6f",
@@ -1048,25 +1123,29 @@
      "xn------5cdaaqbojaafpcf7bm1b3blx6ak4w.xn--p1ai"
     ]
    },
-   "status": "cached",
+   "seconds": 1.8,
+   "status": "fetched",
    "title": "",
    "upstream_version": ""
   },
   "kadhosts": {
-   "accepted": 39619,
-   "error": "not downloaded",
+   "accepted": 39863,
+   "bytes": 1266852,
+   "id": "kadhosts",
    "license_detected": "CC",
-   "raw_bytes": 1262321,
-   "raw_sha256": "c030fe440b4eafc39a215287264dcaf431d177805678874b983055d4f47d761e",
+   "raw_bytes": 1266852,
+   "raw_sha256": "d97b82e2c33dd16e60023b7e473549d97e23daf3ac83986ecd9748dfe9c8e99f",
    "rejected": {},
    "samples": {},
-   "status": "cached",
+   "seconds": 0.1,
+   "status": "fetched",
    "title": "KADhosts",
    "upstream_version": ""
   },
   "kees-top-ads-trackers": {
    "accepted": 3611,
-   "error": "not downloaded",
+   "bytes": 81296,
+   "id": "kees-top-ads-trackers",
    "license_detected": "",
    "raw_bytes": 81296,
    "raw_sha256": "0f1f769640623488c4cc4dc36ffc4ef54600165c2fc051e2fc24dfa204d21961",
@@ -1082,13 +1161,15 @@
      "0.0.0.0 oneaudience"
     ]
    },
-   "status": "cached",
+   "seconds": 0.2,
+   "status": "fetched",
    "title": "EU US most prevalent ads & trackers HOST format",
    "upstream_version": ""
   },
   "mahakala": {
    "accepted": 349997,
-   "error": "not downloaded",
+   "bytes": 10664185,
+   "id": "mahakala",
    "license_detected": "",
    "raw_bytes": 10664185,
    "raw_sha256": "6832dda22304ca3d8fa88df9c9031b18bcd6fe9fdc47878796c0ab6b555d40cc",
@@ -1129,18 +1210,20 @@
      "0.0.0.0 18.p11.dnsserver.luminate.comro.20.p12.webhosting.luminate.com"
     ]
    },
-   "status": "cached",
+   "seconds": 0.7,
+   "status": "fetched",
    "title": "",
    "upstream_version": ""
   },
   "malwarefilter-phishing": {
-   "accepted": 39331,
-   "error": "not downloaded",
+   "accepted": 34050,
+   "bytes": 1240790,
+   "id": "malwarefilter-phishing",
    "license_detected": "e",
-   "raw_bytes": 1437699,
-   "raw_sha256": "ffdd36b9826ffbddb162797ef7a5cf7aaab84dab23a89ec21aa255ffad2c2201",
+   "raw_bytes": 1240790,
+   "raw_sha256": "05a22f0410c835610c471c3eee395f48277d448276ccfde7049b4881e4cda0ec",
    "rejected": {
-    "bad-label": 23,
+    "bad-label": 22,
     "too-many-labels": 3
    },
    "samples": {
@@ -1148,7 +1231,7 @@
      "0.0.0.0 103-219-58-100_s-23-215-0-13_ts-1718634508-clienttons-s.akamaihd.net",
      "0.0.0.0 bonheur_sources.godaddysites.com",
      "0.0.0.0 bridge_trezo-cdn.teachable.com",
-     "0.0.0.0 coin_baasee_prologion.godaddysites.com"
+     "0.0.0.0 coinbase_1_login.godaddysites.com"
     ],
     "too-many-labels": [
      "0.0.0.0 https.m.facebook.com.ttcysuttlart1999.aylandirow.tmf.org.ru",
@@ -1156,25 +1239,29 @@
      "0.0.0.0 mijn.overheid.nl.berichtenbox.services.kwp7z384yrdou64sro4kufv3kaygbdx3jfg6wmufnjfaskeuvoz3.rutrainfo."
     ]
    },
-   "status": "cached",
+   "seconds": 0.4,
+   "status": "fetched",
    "title": "Phishing Hosts Blocklist",
    "upstream_version": ""
   },
   "mandiant-apt1": {
    "accepted": 2046,
-   "error": "not downloaded",
+   "bytes": 43844,
+   "id": "mandiant-apt1",
    "license_detected": "",
    "raw_bytes": 43844,
    "raw_sha256": "3052a65fae7b9de3afc6216d9136edcb815af9f992f435f14780825af4c1ff7c",
    "rejected": {},
    "samples": {},
-   "status": "cached",
+   "seconds": 0.4,
+   "status": "fetched",
    "title": "",
    "upstream_version": ""
   },
   "matomo-referrer-spam": {
    "accepted": 2350,
-   "error": "not downloaded",
+   "bytes": 37727,
+   "id": "matomo-referrer-spam",
    "license_detected": "",
    "raw_bytes": 37727,
    "raw_sha256": "640a63e8324b441c5f22240308e3925cea57464ffaafe6174cfd46c3925c6751",
@@ -1187,13 +1274,15 @@
      "xn------6cdbciescapvf0a8bibwx0a1bu.xn--90ais"
     ]
    },
-   "status": "cached",
+   "seconds": 0.1,
+   "status": "fetched",
    "title": "",
    "upstream_version": ""
   },
   "mvps-hosts": {
    "accepted": 8728,
-   "error": "not downloaded",
+   "bytes": 334861,
+   "id": "mvps-hosts",
    "license_detected": "terms.",
    "raw_bytes": 334861,
    "raw_sha256": "305d2e095e5aa2bebb80384c1325354f4f477c2097fc5dbe9b10c49c1fc4453a",
@@ -1217,16 +1306,18 @@
      "0.0.0.0 ___id___.c.mystat-in.net #[Wildcard DNS]"
     ]
    },
-   "status": "cached",
+   "seconds": 0.8,
+   "status": "fetched",
    "title": "",
    "upstream_version": ""
   },
   "oisd-big": {
-   "accepted": 244238,
-   "error": "not downloaded",
+   "accepted": 237453,
+   "bytes": 5452764,
+   "id": "oisd-big",
    "license_detected": "",
-   "raw_bytes": 5644458,
-   "raw_sha256": "e5790b405c2515a3d07b6f925584cd80d43978e56f8d7a9534b4439dc9821488",
+   "raw_bytes": 5452764,
+   "raw_sha256": "6ec0d2828a03a9441437dc081ad6effe97e47427f88108d0b1a1ce3fc0034dec",
    "rejected": {
     "hyphen-run": 4
    },
@@ -1238,16 +1329,18 @@
      "||m.facebook.com--------confirm.aznet1.net^"
     ]
    },
-   "status": "cached",
+   "seconds": 2.4,
+   "status": "fetched",
    "title": "oisd big",
-   "upstream_version": "202610030512"
+   "upstream_version": "202610121211"
   },
   "oisd-nsfw": {
-   "accepted": 470987,
-   "error": "not downloaded",
+   "accepted": 469720,
+   "bytes": 9756889,
+   "id": "oisd-nsfw",
    "license_detected": "",
-   "raw_bytes": 9892973,
-   "raw_sha256": "3b4b9eb67a9221b510ca1d473f261cf14bf689972799b2f797d0f755f3f8e287",
+   "raw_bytes": 9756889,
+   "raw_sha256": "ad78ef39d2416690e973df8cd576faeaeaa62ce2b60c9d9ad315d74c95a9f6c0",
    "rejected": {
     "hyphen-run": 1,
     "single-label": 4
@@ -1263,37 +1356,43 @@
      "||xxx^"
     ]
    },
-   "status": "cached",
+   "seconds": 2.2,
+   "status": "fetched",
    "title": "oisd nsfw",
-   "upstream_version": "202610030435"
+   "upstream_version": "202610121132"
   },
   "perflyst-android": {
    "accepted": 80,
-   "error": "not downloaded",
+   "bytes": 2153,
+   "id": "perflyst-android",
    "license_detected": "",
    "raw_bytes": 2153,
    "raw_sha256": "164b9bbb1030b69da5d0c2f5a327c7780c9674dc589f65996a974bb0184814ab",
    "rejected": {},
    "samples": {},
-   "status": "cached",
+   "seconds": 0.1,
+   "status": "fetched",
    "title": "",
    "upstream_version": ""
   },
   "perflyst-firetv": {
    "accepted": 16,
-   "error": "not downloaded",
+   "bytes": 1502,
+   "id": "perflyst-firetv",
    "license_detected": "",
    "raw_bytes": 1502,
    "raw_sha256": "22d719cde872d51365f350e142e102be5c53dcbd668a795c0f51c14d1d812fbb",
    "rejected": {},
    "samples": {},
-   "status": "cached",
+   "seconds": 0.1,
+   "status": "fetched",
    "title": "",
    "upstream_version": ""
   },
   "perflyst-smarttv": {
    "accepted": 497,
-   "error": "not downloaded",
+   "bytes": 16594,
+   "id": "perflyst-smarttv",
    "license_detected": "",
    "raw_bytes": 16594,
    "raw_sha256": "d891473d90fc1caee465b1feb60d20b3b3ee2f90a398ae40aaf215f0050c9d4a",
@@ -1305,16 +1404,18 @@
      "_xmpp-client._tcp.managed.xmpp.foxtel.com.au"
     ]
    },
-   "status": "cached",
+   "seconds": 0.2,
+   "status": "fetched",
    "title": "Smart-TV Blocklist for Pi-hole",
    "upstream_version": ""
   },
   "phishing-army": {
-   "accepted": 146410,
-   "error": "not downloaded",
+   "accepted": 141322,
+   "bytes": 2921955,
+   "id": "phishing-army",
    "license_detected": "d",
-   "raw_bytes": 3032333,
-   "raw_sha256": "11cf51c7ad27bb55975ca2c1b8e1ccaec2e99a4df2ab079c8d259e566c7ddef9",
+   "raw_bytes": 2921955,
+   "raw_sha256": "ecc1e43d79cbe12edb17160eeb64a321e6677e08bbb4a5a1e12ff717521ca736",
    "rejected": {
     "too-many-labels": 6
    },
@@ -1326,13 +1427,15 @@
      "www.dc.crsorgi.gov.in.index.crs.certificate4.com"
     ]
    },
-   "status": "cached",
+   "seconds": 0.7,
+   "status": "fetched",
    "title": "",
    "upstream_version": ""
   },
   "phishtank-tg12": {
    "accepted": 49851,
-   "error": "not downloaded",
+   "bytes": 1757169,
+   "id": "phishtank-tg12",
    "license_detected": "",
    "raw_bytes": 1757169,
    "raw_sha256": "e8183d99af72ed2a6411c7f535706eab4160d679d3692f5071fbe5faa4f8e654",
@@ -1354,40 +1457,46 @@
      "www.attws-ssl.group.iicxp.lab.cpsess-frontend.sman2cijaku.sch.id"
     ]
    },
-   "status": "cached",
+   "seconds": 0.2,
+   "status": "fetched",
    "title": "",
    "upstream_version": ""
   },
   "quidsup-notrack": {
    "accepted": 15239,
-   "error": "not downloaded",
+   "bytes": 618476,
+   "id": "quidsup-notrack",
    "license_detected": "GNU",
    "raw_bytes": 618476,
    "raw_sha256": "d838dd14b077e13dbc70418de7875384e7381cbda29a0c1b5f2450a72c6e73ee",
    "rejected": {},
    "samples": {},
-   "status": "cached",
+   "seconds": 0.4,
+   "status": "fetched",
    "title": "NoTrack Tracker Blocklist",
    "upstream_version": ""
   },
   "quidsup-notrack-malware": {
    "accepted": 125,
-   "error": "not downloaded",
+   "bytes": 4762,
+   "id": "quidsup-notrack-malware",
    "license_detected": "GNU",
    "raw_bytes": 4762,
    "raw_sha256": "de2e33be367b25c0826008e677401c706e2de7c4cc7cf0891b26fb804e0c022f",
    "rejected": {},
    "samples": {},
-   "status": "cached",
+   "seconds": 0.4,
+   "status": "fetched",
    "title": "NoTrack Malware Blocklist",
    "upstream_version": ""
   },
   "rpilist-easylist": {
-   "accepted": 172733,
-   "error": "not downloaded",
+   "accepted": 176424,
+   "bytes": 3813137,
+   "id": "rpilist-easylist",
    "license_detected": "",
-   "raw_bytes": 3734350,
-   "raw_sha256": "702f4729000f04988c4b0f53f787b690b887e33e07e9361b5e1473498b8c61a3",
+   "raw_bytes": 3813137,
+   "raw_sha256": "6d2e9eb8bd114b9b86f0fc427308f6beb13f167aca3a6900233db06c19962e08",
    "rejected": {
     "bad-label": 1,
     "bad-tld": 2,
@@ -1412,13 +1521,15 @@
      "||adm.jenkins.metrics.development.mgmt.cloudfront.docker.2lab.net.zooplus.de^"
     ]
    },
-   "status": "cached",
+   "seconds": 0.5,
+   "status": "fetched",
    "title": "",
    "upstream_version": ""
   },
   "rpilist-malware": {
    "accepted": 624017,
-   "error": "not downloaded",
+   "bytes": 14949646,
+   "id": "rpilist-malware",
    "license_detected": "",
    "raw_bytes": 14949646,
    "raw_sha256": "8e3eaa7f51a58f64ce092af1d12c14b0a71abd466ad8e2c9dbb030da8437c116",
@@ -1440,13 +1551,15 @@
      "||6.0.0.37050.2863923067.3163759174.0.0.b48b4b4c879e7211d6a13e26a8a914aaf6c218653840e81d9f.hfuidhfd.jp^"
     ]
    },
-   "status": "cached",
+   "seconds": 0.3,
+   "status": "fetched",
    "title": "",
    "upstream_version": ""
   },
   "scam-blocklist": {
    "accepted": 468511,
-   "error": "not downloaded",
+   "bytes": 9947809,
+   "id": "scam-blocklist",
    "license_detected": "d",
    "raw_bytes": 9947809,
    "raw_sha256": "7fdb5d9dc3d221d1eedfbeb6d4b10bef12cd8f57db8d33696f36e0fd5cd9ad48",
@@ -1468,16 +1581,18 @@
      "5wwwwww.wwweinyooaudzjsq.hippo.137.184.242.87.sslip.io"
     ]
    },
-   "status": "cached",
+   "seconds": 0.3,
+   "status": "fetched",
    "title": "Jarelllama's Scam Blocklist",
    "upstream_version": ""
   },
   "snafu": {
-   "accepted": 75047,
-   "error": "not downloaded",
+   "accepted": 75118,
+   "bytes": 2072891,
+   "id": "snafu",
    "license_detected": "WTFPL",
-   "raw_bytes": 2071079,
-   "raw_sha256": "e8b762d6afc90385f91114596db0360ff661e6eb066362c74a17ef53a7d29e10",
+   "raw_bytes": 2072891,
+   "raw_sha256": "bb396aeec555246f2053acb76ef739bae9bbc26863d53badc7fddeaf9d5171fd",
    "rejected": {
     "bad-label": 23,
     "too-many-labels": 4
@@ -1496,16 +1611,18 @@
      "7.tlu.dl.delivery.mp.microsoft.comengine.adzerk.net"
     ]
    },
-   "status": "cached",
+   "seconds": 0.2,
+   "status": "fetched",
    "title": "## A general ad & tracking domain blocklist for pi-hole. (https://pi-hole.net/)              ###",
    "upstream_version": ""
   },
   "someonewhocares": {
-   "accepted": 13081,
-   "error": "not downloaded",
+   "accepted": 13082,
+   "bytes": 367558,
+   "id": "someonewhocares",
    "license_detected": "",
-   "raw_bytes": 367528,
-   "raw_sha256": "066fcfa30c2b59963c3789965f02b61fa7f0b7a5ee20049d525d83020b92837e",
+   "raw_bytes": 367558,
+   "raw_sha256": "178fc4cf03e4e39218555798044ae29427836882ee62d571afa1fb3b758bd4e4",
    "rejected": {
     "blocked-name": 11,
     "single-label": 3
@@ -1523,58 +1640,67 @@
      "0.0.0.0 wpad # For reference: https://www.youtube.com/watch?v=uwsykPWa5Lc"
     ]
    },
-   "status": "cached",
+   "seconds": 0.2,
+   "status": "fetched",
    "title": "",
    "upstream_version": ""
   },
   "spam404": {
    "accepted": 8140,
-   "error": "not downloaded",
+   "bytes": 146593,
+   "id": "spam404",
    "license_detected": ".com",
    "raw_bytes": 146593,
    "raw_sha256": "99c65c4a7bcbab03cb82b1068d39a3e43dd65b51ce7b089929261a818b520960",
    "rejected": {},
    "samples": {},
-   "status": "cached",
+   "seconds": 0.0,
+   "status": "fetched",
    "title": "",
    "upstream_version": ""
   },
   "stalkerware-indicators": {
-   "accepted": 925,
-   "error": "not downloaded",
+   "accepted": 928,
+   "bytes": 19642,
+   "id": "stalkerware-indicators",
    "license_detected": "",
-   "raw_bytes": 19585,
-   "raw_sha256": "6e8928e0dc37b9fcf9c16ceda3c55d717dfc816b1d491becbf58cb71a5b734c8",
+   "raw_bytes": 19642,
+   "raw_sha256": "c6558b394b18d067e641b8ce61d461e2070a0548b24b660b667d1c2043681858",
    "rejected": {},
    "samples": {},
-   "status": "cached",
+   "seconds": 0.1,
+   "status": "fetched",
    "title": "",
    "upstream_version": ""
   },
   "stevenblack-fakenews": {
    "accepted": 2193,
-   "error": "not downloaded",
+   "bytes": 58877,
+   "id": "stevenblack-fakenews",
    "license_detected": "",
    "raw_bytes": 58877,
    "raw_sha256": "4a3c886c81028a324d5801390efb17617845a6d787d08cc9ae8ce3f033250bf0",
    "rejected": {},
    "samples": {},
-   "status": "cached",
+   "seconds": 0.1,
+   "status": "fetched",
    "title": "",
    "upstream_version": ""
   },
   "stevenblack-hosts": {
-   "accepted": 72230,
-   "error": "not downloaded",
+   "accepted": 72521,
+   "bytes": 2229037,
+   "id": "stevenblack-hosts",
    "license_detected": "",
-   "raw_bytes": 2220527,
-   "raw_sha256": "c90ebedf5453c551b8e5c3f164640db5defb79228fd7ba3d7b58b5f7804a421a",
+   "raw_bytes": 2229037,
+   "raw_sha256": "b83fc7acc934248ea4995dac213aa0ebb92d6824fd8469c1c20327b445db9051",
    "rejected": {
     "bad-label": 1,
     "bad-tld": 1,
     "blocked-name": 13,
     "ip-alias-line": 1,
-    "single-label": 1
+    "single-label": 1,
+    "too-many-labels": 1
    },
    "samples": {
     "bad-label": [
@@ -1594,18 +1720,23 @@
     ],
     "single-label": [
      "0.0.0.0 www.bar.ry2002.02-ry014.snpr.hotmx.hair.zaam.net # In spam"
+    ],
+    "too-many-labels": [
+     "0.0.0.0 31.128.173.853.zhzy999.net31.128.173.853.zhzy999.net"
     ]
    },
-   "status": "cached",
+   "seconds": 0.1,
+   "status": "fetched",
    "title": "StevenBlack/hosts",
    "upstream_version": ""
   },
   "threatfox": {
-   "accepted": 41097,
-   "error": "not downloaded",
+   "accepted": 35065,
+   "bytes": 1216938,
+   "id": "threatfox",
    "license_detected": "",
-   "raw_bytes": 1411997,
-   "raw_sha256": "d37eb711e22791acf61fb6a84148621d20b3c2b709c1375a03ae5897b5b00d41",
+   "raw_bytes": 1216938,
+   "raw_sha256": "9d452ba75b5254dbc6f8554a80795a77dc5afe24ca131c5c56a92d323647958e",
    "rejected": {
     "adblock-rule": 4,
     "bad-tld": 1,
@@ -1636,13 +1767,15 @@
      "127.0.0.1\t0x0321c73150543faa9d016c9c46abf293eb6839e4"
     ]
    },
-   "status": "cached",
+   "seconds": 0.2,
+   "status": "fetched",
    "title": "",
    "upstream_version": ""
   },
   "tr-phishinglist": {
    "accepted": 825828,
-   "error": "not downloaded",
+   "bytes": 17650976,
+   "id": "tr-phishinglist",
    "license_detected": "",
    "raw_bytes": 17650976,
    "raw_sha256": "0da312aafb7ae5c0ab3d446731927c94dd1ecd9faf1b77c48c4a16715a9f8cd5",
@@ -1689,37 +1822,49 @@
      "account.microsoft.login.secure.verification.online.001.027.039.sindibae.cl"
     ]
    },
-   "status": "cached",
+   "seconds": 0.4,
+   "status": "fetched",
    "title": "",
    "upstream_version": ""
   },
   "urlhaus": {
-   "accepted": 384,
-   "error": "not downloaded",
+   "accepted": 416,
+   "bytes": 12464,
+   "id": "urlhaus",
    "license_detected": "",
-   "raw_bytes": 11488,
-   "raw_sha256": "8253f0e1a83c72f3165e819db22fd7691d14c37516ff4dafc159c14eb9ab6f4d",
-   "rejected": {},
-   "samples": {},
-   "status": "cached",
+   "raw_bytes": 12464,
+   "raw_sha256": "0905e57cac5b2b3414ab64bdadd224368ce3e8858b7e1eeb7a6c19c3610659e0",
+   "rejected": {
+    "too-many-labels": 1
+   },
+   "samples": {
+    "too-many-labels": [
+     "127.0.0.1\t31.128.173.853.zhzy999.net31.128.173.853.zhzy999.net"
+    ]
+   },
+   "seconds": 0.1,
+   "status": "fetched",
    "title": "",
    "upstream_version": ""
   },
   "windows-spy-blocker": {
    "accepted": 347,
-   "error": "not downloaded",
+   "bytes": 12383,
+   "id": "windows-spy-blocker",
    "license_detected": "MIT",
    "raw_bytes": 12383,
    "raw_sha256": "709c00d24f5a50dab46ce18d8b1cd175db4593dc7f65623ed89070075a85a3a0",
    "rejected": {},
    "samples": {},
-   "status": "cached",
+   "seconds": 0.0,
+   "status": "fetched",
    "title": "",
    "upstream_version": ""
   },
   "yhosts": {
    "accepted": 6419,
-   "error": "not downloaded",
+   "bytes": 163921,
+   "id": "yhosts",
    "license_detected": "s.adobe.com",
    "raw_bytes": 163921,
    "raw_sha256": "0cdfaf52e9d303a941901e9246c930d1c073238beda42b61c928957d45e78280",
@@ -1742,16 +1887,18 @@
      "0.0.0.0 XiaoQiang"
     ]
    },
-   "status": "cached",
+   "seconds": 0.1,
+   "status": "fetched",
    "title": "",
    "upstream_version": ""
   },
   "yoyo-adservers": {
-   "accepted": 3550,
-   "error": "not downloaded",
+   "accepted": 3547,
+   "bytes": 94977,
+   "id": "yoyo-adservers",
    "license_detected": "",
-   "raw_bytes": 95040,
-   "raw_sha256": "99d176e50f78e15ce052daad50bd8eb8da3b009981037afb5012fd3a9130fbb0",
+   "raw_bytes": 94977,
+   "raw_sha256": "fc4f650d76d8d0153cb9b8f41cb80d99d61203d5c1fb3b4f3b79996059dd4318",
    "rejected": {
     "bad-tld": 1
    },
@@ -1760,7 +1907,8 @@
      "127.0.0.1 pgl.example0101"
     ]
    },
-   "status": "cached",
+   "seconds": 0.8,
+   "status": "fetched",
    "title": "",
    "upstream_version": ""
   }

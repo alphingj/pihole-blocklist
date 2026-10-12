@@ -72,8 +72,8 @@
       | lrjlab11.sgb.local
       | mesh.estesfinancial.internal
 
-## dandelion-antimalware  (600 lines dropped)
-  ip-alias-line: 595
+## dandelion-antimalware  (599 lines dropped)
+  ip-alias-line: 594
       | 127.0.0.1 109.201.135.46
       | 127.0.0.1 138.68.252.54
       | 127.0.0.1 173.208.96.42
@@ -132,8 +132,8 @@
       | sex
       | adult
 
-## firebog-prigent-malware  (38 lines dropped)
-  too-many-labels: 32
+## firebog-prigent-malware  (36 lines dropped)
+  too-many-labels: 30
       | 3www.git.git.git.git.test.cpcalendars.megabahisi.com
       | cnicloud.find.to.estxid.cnto.estxid.cnestxid.cnicloud.find.to.estxid.cn
       | desmos.everfi.microsoftteams.172.93.104.11.backname.io
@@ -161,38 +161,38 @@
       | ||accounts.google.login.secure.id.google.com.zkey0.com^
       | ||mijn.overheid.nl.berichtenbox.services.kwi1f1q3vdcyxneqfiwfifts5uroqrpavwvhkg1k6monzla9ktv8.cbrmedical.com.b
       | ||mijn.overheid.nl.berichtenbox.services.kwp7z384yrdou64sro4kufv3kaygbdx3jfg6wmufnjfaskeuvoz3.rutrainfo.com.br
-      | ||paypal.com.cgi-bin.webscr-cmd726f91e12e61be224f224df6bd32e6127z.8a7b7064cc4ba375cc0d415be95807ecdeed6f28.487
+      | ||paypal.com-us.cgi-bin-webscr-cmd-login-rundispatch-verification.ppl.service-confirmation.account.webscr-logi
 
 ## frogeye-multiparty-trackers  (2 lines dropped)
   bad-label: 2
       | 0.0.0.0 _dmarc.em.sparklight.com
       | 0.0.0.0 _dmarc.et.sparklight.com
 
-## hagezi-pro-plus  (94 lines dropped)
-  too-many-labels: 94
-      | ||telemetry.cell-0.ap-northeast-1.prod.tangerinebox.console.aws.a2z.com^
-      | ||telemetry.cell-0.ap-south-1.prod.tangerinebox.console.aws.a2z.com^
+## hagezi-pro-plus  (66 lines dropped)
+  too-many-labels: 66
       | ||telemetry.cell-0.ap-southeast-1.prod.tangerinebox.console.aws.a2z.com^
       | ||telemetry.cell-0.ap-southeast-2.prod.tangerinebox.console.aws.a2z.com^
+      | ||telemetry.cell-0.eu-central-1.prod.tangerinebox.console.aws.a2z.com^
+      | ||telemetry.cell-0.eu-north-1.prod.tangerinebox.console.aws.a2z.com^
 
-## hagezi-spam-tlds  (120 lines dropped)
-  single-label: 120
+## hagezi-spam-tlds  (118 lines dropped)
+  single-label: 118
       | ||actor^
       | ||apartments^
       | ||auction^
       | ||autos^
 
-## hagezi-tif  (73 lines dropped)
-  too-many-labels: 56
+## hagezi-tif  (120 lines dropped)
+  too-many-labels: 104
       | ||sbermarket.www.nalozhka.ssqkfeq04h8mfmbj.www.sberbank.pochtabank.claid3c54.18bf4d.top^
       | ||sber.nalozhka.sberbank.yandex.sbermegamarket.avito.yandex.nld4sndn.28473244.xyz^
       | ||ozon.pay.ozon.wwwsberbank.spzyaavito.yandex.avito.od3d3.6bc.cc^
-      | ||cdek.sberbank.yandex.sberbank.youla.sbermarket.cdek.nalozhka.apkmod2k.com^
-  hyphen-run: 17
+      | ||iwww.yandex.www.yandex.2543youla.sberbank.nalozhka.gld0l56a5h6u.adflan.com^
+  hyphen-run: 16
       | ||m.facebook.com------------validate---account.disos.xyz^
+      | ||m.facebook.com-----------------secured----account---confirmation.rel360.com^
       | ||07m---------t-------nn-------------5-----------------------7.xyz^
       | ||blsp--------at.online^
-      | ||cloudss--------1524.top^
 
 ## hostsfile-mine-nu  (14 lines dropped)
   bad-label: 10
@@ -259,12 +259,12 @@
       | 0.0.0.0 0.0.0.0
       | 0.0.0.0 0.0.0.0
 
-## malwarefilter-phishing  (26 lines dropped)
-  bad-label: 23
+## malwarefilter-phishing  (25 lines dropped)
+  bad-label: 22
       | 0.0.0.0 103-219-58-100_s-23-215-0-13_ts-1718634508-clienttons-s.akamaihd.net
       | 0.0.0.0 bonheur_sources.godaddysites.com
       | 0.0.0.0 bridge_trezo-cdn.teachable.com
-      | 0.0.0.0 coin_baasee_prologion.godaddysites.com
+      | 0.0.0.0 coinbase_1_login.godaddysites.com
   too-many-labels: 3
       | 0.0.0.0 https.m.facebook.com.ttcysuttlart1999.aylandirow.tmf.org.ru
       | 0.0.0.0 mijn.overheid.nl.berichtenbox.services.kwi1f1q3vdcyxneqfiwfifts5uroqrpavwvhkg1k6monzla9ktv8.cbrmedical
@@ -385,7 +385,7 @@
       | 0.0.0.0 dig
       | 0.0.0.0 wpad # For reference: https://www.youtube.com/watch?v=uwsykPWa5Lc
 
-## stevenblack-hosts  (17 lines dropped)
+## stevenblack-hosts  (18 lines dropped)
   blocked-name: 13
       | 127.0.0.1 localhost
       | 127.0.0.1 localhost.localdomain
@@ -397,6 +397,8 @@
       | 0.0.0.0 philadelphia_cbslocal.us.intellitxt.com
   single-label: 1
       | 0.0.0.0 www.bar.ry2002.02-ry014.snpr.hotmx.hair.zaam.net # In spam
+  too-many-labels: 1
+      | 0.0.0.0 31.128.173.853.zhzy999.net31.128.173.853.zhzy999.net
   bad-tld: 1
       | 0.0.0.0 pgl.example0101
 
@@ -446,6 +448,10 @@
       | zgarniij_vouchher.skroc.pl
   blocked-suffix: 1
       | 000invaliddomain.local
+
+## urlhaus  (1 lines dropped)
+  too-many-labels: 1
+      | 127.0.0.1	31.128.173.853.zhzy999.net31.128.173.853.zhzy999.net
 
 ## yhosts  (6 lines dropped)
   blocked-name: 4

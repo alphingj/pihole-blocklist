@@ -1,17 +1,17 @@
 {
  "allinone": {
-  "before_scrub": 5308386,
-  "removed_exact": 46857,
-  "removed_keyword": 10213
+  "before_scrub": 4811743,
+  "removed_exact": 45136,
+  "removed_keyword": 10150
  },
  "core": {
-  "before_scrub": 4814271,
-  "removed_exact": 29303,
-  "removed_keyword": 8492
+  "before_scrub": 4315908,
+  "removed_exact": 27524,
+  "removed_keyword": 8431
  },
  "junk": {
-  "before_scrub": 3227046,
-  "removed_exact": 31500,
-  "removed_keyword": 5312
+  "before_scrub": 2699333,
+  "removed_exact": 29669,
+  "removed_keyword": 5229
  }
 }
