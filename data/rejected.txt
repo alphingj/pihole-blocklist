@@ -60,13 +60,13 @@
   too-many-labels: 1
       | 0.0.0.0 0.facebook.com.cgi-bin.nph-roxy.cgi.0.http.0.facebook.com
 
-## cyberhost-malware  (34 lines dropped)
-  too-many-labels: 24
+## cyberhost-malware  (38 lines dropped)
+  too-many-labels: 26
       | yandex.www.community.san.277453d81e441bf8c177e738491265.youla.yandex.pay.prod05.comulogin.media.se.static.phpm
       | pay.pay.www.sitemap.sberbank.app.pay.avito.blablacar.covid19.oldcartradersc31930082634289b3a98aa4eae1fd671.sec
       | pay.ww1.gitlab.theweddingofadelfirda.vid05.comulogin.media.se.static.phpmyadmin.admin.blog.cheftollu.com
       | www.com.cgi.bin.webscr.cmd.login.submit.dispatch.update.account.paypal.confirm.account.m209.bsturismo.com.br
-  blocked-suffix: 10
+  blocked-suffix: 12
       | rc.local
       | mesh.softimus.local
       | lrjlab11.sgb.local
@@ -132,12 +132,12 @@
       | sex
       | adult
 
-## firebog-prigent-malware  (36 lines dropped)
-  too-many-labels: 30
+## firebog-prigent-malware  (37 lines dropped)
+  too-many-labels: 31
+      | 31.128.173.853.zhzy999.net31.128.173.853.zhzy999.net
       | 3www.git.git.git.git.test.cpcalendars.megabahisi.com
       | cnicloud.find.to.estxid.cnto.estxid.cnestxid.cnicloud.find.to.estxid.cn
       | desmos.everfi.microsoftteams.172.93.104.11.backname.io
-      | dreambox.goguardian.ixl.172.93.104.11.backname.io
   hyphen-run: 6
       | docs--wallet------ledger.webflow.io
       | mail2myeast-------pro-messages-communicationscenter.weebly.com
@@ -161,38 +161,38 @@
       | ||accounts.google.login.secure.id.google.com.zkey0.com^
       | ||mijn.overheid.nl.berichtenbox.services.kwi1f1q3vdcyxneqfiwfifts5uroqrpavwvhkg1k6monzla9ktv8.cbrmedical.com.b
       | ||mijn.overheid.nl.berichtenbox.services.kwp7z384yrdou64sro4kufv3kaygbdx3jfg6wmufnjfaskeuvoz3.rutrainfo.com.br
-      | ||paypal.com-us.cgi-bin-webscr-cmd-login-rundispatch-verification.ppl.service-confirmation.account.webscr-logi
+      | ||news.www.www.www.api.admin.18-235-58-082.plesk.page^
 
 ## frogeye-multiparty-trackers  (2 lines dropped)
   bad-label: 2
       | 0.0.0.0 _dmarc.em.sparklight.com
       | 0.0.0.0 _dmarc.et.sparklight.com
 
-## hagezi-pro-plus  (66 lines dropped)
-  too-many-labels: 66
+## hagezi-pro-plus  (29 lines dropped)
+  too-many-labels: 29
+      | ||telemetry.cell-0.ap-east-2.prod.tangerinebox.console.aws.a2z.com^
+      | ||telemetry.cell-0.ap-northeast-1.prod.tangerinebox.console.aws.a2z.com^
+      | ||telemetry.cell-0.ap-northeast-2.prod.tangerinebox.console.aws.a2z.com^
       | ||telemetry.cell-0.ap-southeast-1.prod.tangerinebox.console.aws.a2z.com^
-      | ||telemetry.cell-0.ap-southeast-2.prod.tangerinebox.console.aws.a2z.com^
-      | ||telemetry.cell-0.eu-central-1.prod.tangerinebox.console.aws.a2z.com^
-      | ||telemetry.cell-0.eu-north-1.prod.tangerinebox.console.aws.a2z.com^
 
-## hagezi-spam-tlds  (118 lines dropped)
-  single-label: 118
+## hagezi-spam-tlds  (117 lines dropped)
+  single-label: 117
       | ||actor^
       | ||apartments^
       | ||auction^
       | ||autos^
 
-## hagezi-tif  (120 lines dropped)
-  too-many-labels: 104
+## hagezi-tif  (142 lines dropped)
+  too-many-labels: 124
       | ||sbermarket.www.nalozhka.ssqkfeq04h8mfmbj.www.sberbank.pochtabank.claid3c54.18bf4d.top^
       | ||sber.nalozhka.sberbank.yandex.sbermegamarket.avito.yandex.nld4sndn.28473244.xyz^
       | ||ozon.pay.ozon.wwwsberbank.spzyaavito.yandex.avito.od3d3.6bc.cc^
       | ||iwww.yandex.www.yandex.2543youla.sberbank.nalozhka.gld0l56a5h6u.adflan.com^
-  hyphen-run: 16
+  hyphen-run: 18
       | ||m.facebook.com------------validate---account.disos.xyz^
       | ||m.facebook.com-----------------secured----account---confirmation.rel360.com^
       | ||07m---------t-------nn-------------5-----------------------7.xyz^
-      | ||blsp--------at.online^
+      | ||56v---------e-------lc-------------5-----------------------5.rip^
 
 ## hostsfile-mine-nu  (14 lines dropped)
   bad-label: 10
@@ -259,8 +259,8 @@
       | 0.0.0.0 0.0.0.0
       | 0.0.0.0 0.0.0.0
 
-## malwarefilter-phishing  (25 lines dropped)
-  bad-label: 22
+## malwarefilter-phishing  (26 lines dropped)
+  bad-label: 23
       | 0.0.0.0 103-219-58-100_s-23-215-0-13_ts-1718634508-clienttons-s.akamaihd.net
       | 0.0.0.0 bonheur_sources.godaddysites.com
       | 0.0.0.0 bridge_trezo-cdn.teachable.com
@@ -305,12 +305,12 @@
   bad-label: 1
       | _xmpp-client._tcp.managed.xmpp.foxtel.com.au
 
-## phishing-army  (6 lines dropped)
-  too-many-labels: 6
+## phishing-army  (5 lines dropped)
+  too-many-labels: 5
       | accounts.google.login.secure.id.google.com.zkey0.com
       | mijn.overheid.nl.berichtenbox.services.kwi1f1q3vdcyxneqfiwfifts5uroqrpavwvhkg1k6monzla9ktv8.cbrmedical.com.br
       | mijn.overheid.nl.berichtenbox.services.kwp7z384yrdou64sro4kufv3kaygbdx3jfg6wmufnjfaskeuvoz3.rutrainfo.com.br
-      | www.dc.crsorgi.gov.in.index.crs.certificate4.com
+      | www.mijn.overheid.nl.berichtenbox.l1tjxkgmdqghekubdurkea68msnzfea6kx1u2q2s9pwpvurkzexb.luizmatoso.com.br
 
 ## phishtank-tg12  (9 lines dropped)
   too-many-labels: 5
@@ -338,8 +338,8 @@
   blocked-suffix: 1
       | ||youtube.local^
 
-## rpilist-malware  (70 lines dropped)
-  too-many-labels: 60
+## rpilist-malware  (86 lines dropped)
+  too-many-labels: 76
       | ||31.128.173.853.zhzy999.net31.128.173.853.zhzy999.net^
       | ||3www.git.git.git.git.test.cpcalendars.megabahisi.com^
       | ||42.157.79.83.dynamic.wline.res.cust.swisscom.ch^
@@ -402,23 +402,20 @@
   bad-tld: 1
       | 0.0.0.0 pgl.example0101
 
-## threatfox  (11 lines dropped)
-  blocked-suffix: 4
-      | 127.0.0.1	example-probe-does-not-exist-12345.invalid
-      | 127.0.0.1	dummy-tf-test-dummy-2t4navcd.example
-      | 127.0.0.1	dummy-tf-test-dummy-rfnsp2ni.example
-      | 127.0.0.1	test-dummy-validation.invalid
+## threatfox  (9 lines dropped)
   adblock-rule: 4
       | 127.0.0.1	pb3089ep3wawzichhzf9zq==
       | 127.0.0.1	frbvnnnfyr6xr622pbe0nq==
       | 127.0.0.1	bimqut238p64emywajhvaw==
       | 127.0.0.1	axr7hs51.$unp2idvalk.digital
+  blocked-suffix: 3
+      | 127.0.0.1	example-probe-does-not-exist-12345.invalid
+      | 127.0.0.1	dummy-tf-test-dummy-2t4navcd.example
+      | 127.0.0.1	dummy-tf-test-dummy-rfnsp2ni.example
   bad-tld: 1
       | 127.0.0.1	check1.judicica1n
   single-label: 1
       | 127.0.0.1	0x0321c73150543faa9d016c9c46abf293eb6839e4
-  idna-failed: 1
-      | 127.0.0.1	םv
 
 ## tr-phishinglist  (347 lines dropped)
   too-many-labels: 177
